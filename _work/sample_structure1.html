@@ -1,20 +1,64 @@
 <!doctype html>
-<!-- sample site -->
+<!-- Set up the html page -->
 <html> 
-
+<!-- Header; Set up character-set; link to CSS style-sheet; -->
 	<head>
 		<!-- Meta tag chooses which character set to render page with -->
 		<meta charset="utf-8">
 		<link href="css/css_code.css" rel="stylesheet">
-		<title>This is a title </title>
-
+		<title>Sienar Fleet Systems </title>
+<!-- Setup/close navigation links -->		
+		<nav>
+		<!-- First reference to the colour section -->	
+      		<a href="#colour">To Colour Section</a>
+    	</nav>
+<!-- Close head tag -->
 	</head>
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	<!-- Top Section; Titles and Sample Text of h1, h2, ol & p -->
 		
-		<h1>A heading</h1>
-		<h2>Another heading</h2>
+		<h1>AERO</h1>
+		<h2>SF OLDREPUBLIC</h2>
 
 	<body>	
+		<p>
+			<ol>
+				<li> Hello World 1</li>
+				<li> Hello World 2</li>
+			</ol>
+			Hello This Is Times New Roman Font (Will be Lato font)
+		</p>
+<!--  Section 1: Colour pallet -->
+		<section id='colour'>
+			<h2>This is the colour pallet section</h2>
+			<canvas id="myCanvas" width="578" height="200"></canvas>
+			    <script>
+			      var canvas = document.getElementById('myCanvas');
+			      var context = canvas.getContext('2d');
 
+			      context.beginPath();
+			      context.rect(188, 50, 200, 100);
+			      context.fillStyle = 'yellow';
+			      context.fill();
+			      context.lineWidth = 7;
+			      context.strokeStyle = 'black';
+			      context.stroke();
+			    </script>
+			<canvas id="myCanvas2" width="578" height="200"></canvas>
+			    <script>
+			      var canvas = document.getElementById('myCanvas2');
+			      var context = canvas.getContext('2d');
+
+			      context.beginPath();
+			      context.rect(0, 50, 200, 100);
+			      context.fillStyle = 'yellow';
+			      context.fill();
+			      context.lineWidth = 7;
+			      context.strokeStyle = 'black';
+			      context.stroke();
+			    </script>
+		</section>
 
 	</body>
 
