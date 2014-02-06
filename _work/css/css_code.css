@@ -1,11 +1,11 @@
 h1 {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: 'aeroregular', Verdana, sans-serif;
 	font-size: 45px; 
 	color: black;
 }
 
 h2 {
-	font-family: Verdana, Arial, sans-serif;
+	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
 	font-size: 30px; 
 	color: black;
 }
@@ -13,7 +13,7 @@ h2 {
 h3
 
 p, ul, ol {
-	font-family: Lato, times, Verdana, sans-serif;
+	font-family: 'latoregular', times, Verdana, sans-serif;
 }
 
 nav a.Fairview_Taupe {
@@ -42,4 +42,41 @@ nav a {
 	color: #FFFFFF;
 	padding: 1rem 1.25rem;
 	text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-reg.eot');
+    src: url('lato-reg.eot?#iefix') format('embedded-opentype'),
+         url('lato-reg.woff') format('woff'),
+         url('lato-reg.ttf') format('truetype'),
+         url('lato-reg.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_old_republicregular';
+    src: url('sf_old_republic-webfont.eot');
+    src: url('sf_old_republic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sf_old_republic-webfont.woff') format('woff'),
+         url('sf_old_republic-webfont.ttf') format('truetype'),
+         url('sf_old_republic-webfont.svg#sf_old_republicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aeroregular';
+    src: url('aero-webfont.eot');
+    src: url('aero-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aero-webfont.woff') format('woff'),
+         url('aero-webfont.ttf') format('truetype'),
+         url('aero-webfont.svg#aeroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
