@@ -1,5 +1,6 @@
 body{
 	padding: 1em;
+	background-image:url(../images/squared_metal.png);
 }
 
 h1 {
@@ -24,6 +25,23 @@ p, ul, ol {
 	font-family: 'latoregular', times, Verdana, sans-serif;
 }
 
+nav a.main_nav{
+	/*background-color: #7D7262;*/
+	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	border:1px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	width:24.5%;
+	height:50px;
+	position:relative;
+	text-align:center;
+}
+
+nav a.main_nav:hover{
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+}
 nav a.Fairview_Taupe {
 	background-color: #7D7262;
 }
@@ -69,7 +87,6 @@ nav a {
          url('lato-reg.svg#latoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -81,7 +98,6 @@ nav a {
          url('sf_old_republic-webfont.svg#sf_old_republicregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -93,5 +109,4 @@ nav a {
          url('aero-webfont.svg#aeroregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
