@@ -18,20 +18,25 @@
 	box-sizing: border-box;
 }
 
+/* Container: for all the page content to fit within */
+#container{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
 .col-1of2 {
 	width: 50%;
+}
+
+.col-1of3 {
+	width: 33.333%;
 }
 
 @media (max-width:800px) {
 	.col-1of2 {
 		width: 100%;
 	}
-}
-
-/* Debugging styles of our 3 column grid */
-
-.col-1of3 {
-	width: 33.333%;
 }
 
 @media (max-width:491px) {

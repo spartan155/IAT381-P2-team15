@@ -1,3 +1,7 @@
+body{
+	padding: 1em;
+}
+
 h1 {
 	font-family: 'aeroregular', Verdana, sans-serif;
 	font-size: 45px; 
