@@ -3,6 +3,10 @@ body{
 	background-image:url(../images/squared_metal.png);
 }
 
+header{
+	width:960px;
+}
+
 h1 {
 	font-family: 'aeroregular', Verdana, sans-serif;
 	font-size: 45px; 
@@ -28,7 +32,7 @@ p, ul, ol {
 nav a.main_nav{
 	/*background-color: #7D7262;*/
 	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
-	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
 	box-shadow:inset 0px 1px 3px 0px #91b8b3;
 	border:1px solid #241d13;
 	display:inline-block;
@@ -39,6 +43,9 @@ nav a.main_nav{
 	text-align:center;
 }
 
+nav a.main_nav:hover{
+	background:linear-gradient(to bottom, #42685E 5%, #535353 100%);
+}
 .footer{
 	background-image:url(../images/stardust.png);
 	height:200px;
@@ -100,9 +107,7 @@ nav a.main_nav{
 	border-right: dashed thin #929292;
 }
 
-nav a.main_nav:hover{
-	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
-}
+
 nav a.Fairview_Taupe {
 	background-color: #7D7262;
 }
