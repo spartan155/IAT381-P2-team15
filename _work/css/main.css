@@ -1,10 +1,19 @@
 body{
-	padding: 1em;
+	padding: 0px;
 	background-image:url(../images/squared_metal.png);
 }
 
 header{
-	width:960px;
+	width:auto;
+	clear:both;
+}
+
+.header_background1{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height: 193px;
+	background:white;
 }
 
 h1 {
@@ -27,6 +36,25 @@ h3 {
 
 p, ul, ol {
 	font-family: 'latoregular', times, Verdana, sans-serif;
+}
+
+/* Container: for all the page content to fit within */
+.container_header{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container_content{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container_footer{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
 }
 
 .main_nav, .main_nav ul, .main_nav li, .main_nav span, .main_nav a {
@@ -184,6 +212,30 @@ nav a.white_ice {
 	padding-left:10px;
 	padding-right:10px;
 }
+
+.item_description{
+	display:inline;
+	
+}
+
+.item_description img{
+	float:left;
+	width:50%;
+	padding-right:10px;
+}
+
+.item_description h2 {
+	font-size:2em;
+	display:inline-block;
+	color:rgb(182, 48, 48);
+	margin-bottom:0.5em;
+}
+.item_description h2 > img{
+	width:1.5em;
+}
+
+
+
 
 @font-face {
     font-family: 'latoregular';
