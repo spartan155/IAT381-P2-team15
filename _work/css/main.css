@@ -29,6 +29,7 @@ h4 {
 	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
 	font-size: 16px;
 	color: black;
+	/* margin-top: 0px; */
 }
 
 p, ul, ol {
@@ -179,6 +180,24 @@ p, ul, ol {
 	margin-right:20px;
 	margin-bottom:20px; 
 	border-right: dashed thin #929292;
+}
+.widget_8{
+	height:450px;
+	margin-left:0px;
+	margin-right:-350px;
+	margin-bottom:20px; 
+}
+.widget_9{
+	height:750px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:20px; 
+}
+.widget_10{
+	height:50px;
+	margin-left:-500px;
+	margin-right:0px;
+	margin-bottom:20px; 
 }
 /* Colour Palet: 
 nav a.Fairview_Taupe {
