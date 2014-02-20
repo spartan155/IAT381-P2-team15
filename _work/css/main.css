@@ -185,6 +185,32 @@ nav a.white_ice {
 	padding-right:10px;
 }
 
+.item_description > img{
+	float:left;
+	width:50%;
+	padding-right:10px;
+	padding-bottom:10px;
+	height:280px;
+}
+
+.item_description h2{
+	color:rgb(182, 56, 56);
+	font-size:2em;
+}
+
+.item_description h2 img{
+	width:1em;
+}
+
+.item_specs{
+	width:100%;
+	background-color:rgb(224, 224, 224);
+	border: solid 1px black;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+}
+
 @font-face {
     font-family: 'latoregular';
     src: url('lato-reg.eot');
