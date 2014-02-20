@@ -34,6 +34,7 @@ h4 {
 p, ul, ol {
 	font-family: 'latoregular', times, Verdana, sans-serif;
 	list-style-type: none;
+	padding: 0;
 }
 
 .main_nav, .main_nav ul, .main_nav li, .main_nav span, .main_nav a {
@@ -172,7 +173,13 @@ p, ul, ol {
 	height:650px;
 	margin-right:30px;
 }
-
+.widget_7{
+	height:450px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:20px; 
+	border-right: dashed thin #929292;
+}
 /* Colour Palet: 
 nav a.Fairview_Taupe {
 	background-color: #7D7262;
