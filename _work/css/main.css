@@ -59,7 +59,7 @@ p, ul, ol {
 
 .main_nav a {
 	background: linear-gradient(top, #fefefe 0%, #ececec 100%);
-	color: #FFFFFF;
+	color: #FFF8FF;
 	display: inline-block;
 	text-decoration: none;
 	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
@@ -152,6 +152,15 @@ p, ul, ol {
 	border-right: dashed thin #929292;
 }
 
+.widget_4{
+	height:150px;
+	margin-right:30px;
+}
+
+.widget_5{
+	height:150px;
+	margin-right:30px;
+}
 /* Colour Palet: 
 nav a.Fairview_Taupe {
 	background-color: #7D7262;
@@ -184,6 +193,8 @@ nav a.white_ice {
 	padding-left:10px;
 	padding-right:10px;
 }
+
+/* Defining out fonts which are used in the H & P tags */
 
 @font-face {
     font-family: 'latoregular';
