@@ -38,6 +38,11 @@ p, ul, ol {
 	padding: 0;
 }
 
+/* POSITION HOLDER ONLY!!!! THIS HOLDS THE SHAPE OF THE TEXT AREA ON THE CONTACT-US PAGE AND THAT'S ALL */
+textarea {
+	width:630px;
+	height:110px;
+}
 .main_nav, .main_nav ul, .main_nav li, .main_nav span, .main_nav a {
 	margin: 0;
 	padding: 0;
@@ -176,7 +181,7 @@ p, ul, ol {
 }
 .widget_7{
 	height:450px;
-	margin-left:0px;
+	margin-left:15px;
 	margin-right:20px;
 	margin-bottom:20px; 
 	border-right: dashed thin #929292;
@@ -189,7 +194,7 @@ p, ul, ol {
 }
 .widget_9{
 	height:750px;
-	margin-left:0px;
+	margin-left:15px;
 	margin-right:0px;
 	margin-bottom:20px; 
 }
