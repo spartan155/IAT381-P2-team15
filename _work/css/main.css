@@ -71,8 +71,7 @@ p, ul, ol {
 	height:50px;
 	border-radius: 5px 5px 0 0;
 	background: #fefefe;
-	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
-	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+
 	display:inline-block;
 	width: 100%;
 	border-bottom: 2px solid #0f0f0f;
@@ -94,10 +93,9 @@ p, ul, ol {
 	text-shadow: 2px 2px black;
 	font-size: 1em;
 	line-height: 49px;
-	padding: 0 20px;
 	text-decoration: none;
 }
- 
+
 .main_nav ul {
 	list-style: none;
 }
@@ -107,17 +105,29 @@ p, ul, ol {
 	width:100%;
 }
 
-.main_nav > ul > li {
+.main_nav > ul > li.nav_link {
 	float: left;
 	width:25%;
 	cursor:pointer;
+	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
+	box-shadow:inset 0px 5px 5px -3px #273533
+	transition: box-shadow .5s;
+	-webkit-transition: box-shadow .5s;
+}
+
+.navlink{
+
 }
 
 .main_nav .nav_link:hover{
-	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
-	box-shadow:inset 0px 5px 15px 0px #273533;
-	border-radius: 5px 5px 0 0;
+
 }
+
+.main_nav li.nav_link:hover{
+	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
+	box-shadow:inset 0px 5px 5px 0px #273533;
+}
+
 
 .footer{
 	background-image:url(../images/stardust.png);
@@ -279,3 +289,9 @@ nav a.white_ice {
     font-weight: normal;
     font-style: normal;
 }
+
+@media (max-width:570px) {
+	.main_nav a {
+		
+	}
+ }
