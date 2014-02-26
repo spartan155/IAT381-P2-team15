@@ -220,8 +220,9 @@ nav a.white_ice {
 
 .item_description img{
 	float:left;
-	width:50%;
+	width:40%;
 	padding-right:10px;
+	height:280px;
 }
 
 .item_description h2 {
@@ -232,9 +233,18 @@ nav a.white_ice {
 }
 .item_description h2 > img{
 	width:1.5em;
+	height:1.5em;
 }
 
-
+.add_to_cart{
+	background-color:orange;
+	display: table;
+	padding: 5px;
+	padding-top: 5px;
+	width: 9em;
+	text-align: center;
+	font-size: 1.2em;
+}
 
 
 @font-face {
