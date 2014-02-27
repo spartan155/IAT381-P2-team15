@@ -56,6 +56,12 @@ p, ul, ol {
 	width: 70%;
 	margin: 0 auto;
 	position: relative;
+	background-image:url(../images/stardust.png);
+	height:200px;
+	padding:10px;
+	padding-left:20px;
+	color:white;
+	border-top:thick solid #303030;
 }
 
 nav a{
@@ -104,42 +110,28 @@ nav a, nav a:visited {
 	color: #FFD159
 }
 
-.footer{
-	background-image:url(../images/stardust.png);
-	height:200px;
-	padding:10px;
-	padding-left:20px;
-	color:white;
-	border-top:thick solid #303030;
-	
-}
-
-.footer h3, a{
+footer h3, a{
 	color:white;
 }
 
-.footer p{
+footer p{
 	margin-top:-10px;
 }
 
-.footer ul{
+footer ul{
 	margin-top:-5px;
 }
 
-.footer input{
+footer input{
 	margin-top:5px;
 	margin-bottom:20px;
 	width:90%;
 }
-.footer a, .footer p, .footer li{
+footer a, footer p, footer li{
 	font-family: 'latoregular', Verdana, times, sans-serif;
 	margin-bottom:6px;
 	line-height:1em;
 	list-style-type:square;
-}
-
-.footer .col-1of3{
-	
 }
 
 .subscribe_btn{
