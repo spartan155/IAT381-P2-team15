@@ -223,6 +223,22 @@ nav a.white_ice {
 	font-size: 1.2em;
 }
 
+.input_type{
+	font-family: times, Verdana, sans-serif;
+	text-align:right;
+	margin-bottom: 1.3em;
+	padding-right: 1em;
+}
+
+.payment_input select{
+	display:block;
+	margin-bottom:1em;
+}
+
+.payment_input input{
+	display:block;
+	margin-bottom:1em;
+}
 
 @font-face {
     font-family: 'latoregular';
