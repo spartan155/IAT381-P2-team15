@@ -185,9 +185,12 @@ nav a.white_ice {
 }
 .content img{
 	float:right;
-	width:50%;
 	padding-left:10px;
 	padding-right:10px;
+}
+
+.content p{
+	text-align:left;
 }
 
 .item_description{
