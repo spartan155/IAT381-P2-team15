@@ -49,6 +49,7 @@ p, ul, ol {
 	width: 70%;
 	margin: 0 auto;
 	position: relative;
+	padding:1em;
 }
 
 .container_footer{
@@ -57,77 +58,51 @@ p, ul, ol {
 	position: relative;
 }
 
-.main_nav, .main_nav ul, .main_nav li, .main_nav span, .main_nav a {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	border: 0;
-	line-height: 1;
-	box-sizing: content-box;
-	text-align:center;
+nav a{
+	width:100%;
 }
 
-.main_nav{
-	height:50px;
-	border-radius: 5px 5px 0 0;
+nav a, nav a:visited {
+	display: inline-block;
 	background: #fefefe;
-
+	padding: 1em .25em;
+	text-decoration: none;
+	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
+	font-size: 1em;
+	text-shadow: 2px 2px black;
+}
+.main_nav{
+	border-radius: 5px 5px 0 0;
 	display:inline-block;
 	width: 100%;
 	border-bottom: 2px solid #0f0f0f;
 }
 
-.main_nav:after,
-.main_nav ul:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
 .main_nav a {
-	background: linear-gradient(top, #fefefe 0%, #ececec 100%);
 	color: #FFFFFF;
-	display: inline-block;
 	text-decoration: none;
-	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
-	text-shadow: 2px 2px black;
-	font-size: 1em;
 	line-height: 49px;
-	text-decoration: none;
 }
 
-.main_nav ul {
-	list-style: none;
-}
+/* Old colours:
+	linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
+*/
 
-.main_nav > ul {
+.nav_link {
 	float: left;
 	width:100%;
-}
-
-.main_nav > ul > li.nav_link {
-	float: left;
-	width:25%;
 	cursor:pointer;
-	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
-	box-shadow:inset 0px 5px 5px -3px #273533
-	transition: box-shadow .5s;
-	-webkit-transition: box-shadow .5s;
+	background:linear-gradient(to bottom, #B13030 5%, #631B1B 100%);
+	box-shadow:inset 0px 3px 3px -3px #271B1B;
+	transition: box-shadow .5s, color .5s;
+	-webkit-transition: box-shadow .5s, color .5s;
+	border-left:1px solid #640808;
 }
 
-.navlink{
-
+.nav_link:hover{
+	box-shadow:inset 0px 2px 5px 0px #271B1B;
+	color: #FFD159
 }
-
-.main_nav .nav_link:hover{
-
-}
-
-.main_nav li.nav_link:hover{
-	background:linear-gradient(to bottom, #395850 5%, #3B3B3B 100%);
-	box-shadow:inset 0px 5px 5px 0px #273533;
-}
-
 
 .footer{
 	background-image:url(../images/stardust.png);
@@ -289,9 +264,3 @@ nav a.white_ice {
     font-weight: normal;
     font-style: normal;
 }
-
-@media (max-width:570px) {
-	.main_nav a {
-		
-	}
- }
