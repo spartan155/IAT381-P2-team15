@@ -38,6 +38,12 @@ p, ul, ol {
 	font-family: 'latoregular', times, Verdana, sans-serif;
 }
 
+th,td,tr
+{
+padding:15px;
+text-align: center; /* looks a lot better aligned */
+}
+
 /* Container: for all the page content to fit within */
 .container_header{
 	width: 70%;
@@ -228,9 +234,10 @@ nav a.white_ice {
 	display: table;
 	padding: 5px;
 	padding-top: 5px;
-	width: 9em;
+	width: 7em;
 	text-align: center;
 	font-size: 0.8em;
+	box-shadow:inset 0.5px 0.5px 8px #FF4D00;
 }
 
 .input_type{
