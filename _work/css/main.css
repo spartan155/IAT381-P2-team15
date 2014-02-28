@@ -14,7 +14,7 @@ header{
 	background-size: cover;
 	height: 193px;
 	background:white;
-
+}
 
 h1 {
 	font-family: 'aeroregular', Verdana, sans-serif;
@@ -215,6 +215,11 @@ nav a.white_ice {
 .item_description h2 > img{
 	width:1.5em;
 	height:1.5em;
+}
+
+.item_description ul{
+	list-style-type: none;
+	text-indent: none;
 }
 
 .add_to_cart{
