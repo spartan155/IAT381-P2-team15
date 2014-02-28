@@ -1,6 +1,6 @@
 /* line 7, ../sass/lightbox.sass */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(images/close.png) url(images/loading.gif) url(images/prev.png) url(images/next.png);
   display: none;
 }
 
@@ -10,7 +10,7 @@ body:after {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
+  background-color: #2B2B2B;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   display: none;
@@ -44,7 +44,7 @@ body:after {
 /* line 35, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: relative;
-  background-color: white;
+  background-color: black;
   *zoom: 1;
   width: 250px;
   height: 250px;
