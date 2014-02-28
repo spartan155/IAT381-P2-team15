@@ -14,7 +14,7 @@ header{
 	background-size: cover;
 	height: 193px;
 	background:white;
-}
+
 
 h1 {
 	font-family: 'aeroregular', Verdana, sans-serif;
@@ -206,10 +206,11 @@ nav a.white_ice {
 }
 
 .item_description h2 {
-	font-size:2em;
+	font-size:1.2em;
 	display:inline-block;
 	color:rgb(182, 48, 48);
 	margin-bottom:0.5em;
+	margin-top:1.2em;
 }
 .item_description h2 > img{
 	width:1.5em;
@@ -223,7 +224,7 @@ nav a.white_ice {
 	padding-top: 5px;
 	width: 9em;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 0.8em;
 }
 
 .input_type{
