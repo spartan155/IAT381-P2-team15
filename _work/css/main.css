@@ -38,11 +38,21 @@ p, ul, ol {
 	font-family: 'latoregular', times, Verdana, sans-serif;
 }
 
-th,td,tr
+tr /* I separated these three table attributes because tr parents to them anyway and I might want to adjust text alignment at a whim */
 {
 padding:15px;
+}
+
+th
+{
 text-align: center; /* looks a lot better aligned */
 }
+
+td
+{
+text-align: center; /* looks a lot better aligned */
+}
+
 
 /* Container: for all the page content to fit within */
 .container_header{
