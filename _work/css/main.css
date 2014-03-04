@@ -23,19 +23,19 @@ h1 {
 }
 
 h2 {
-	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;sans-serif;
 	font-size: 25px; 
 	color: black;
 }
 
 h3 {
-	font-family: 'sf_old_republicregular', Verdana, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;sans-serif;
 	font-size: 20px; 
 	color: black;
 }
 
 p, ul, ol {
-	font-family: 'latoregular', times, Verdana, sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 /* Container: for all the page content to fit within */
@@ -128,7 +128,7 @@ footer input{
 	width:90%;
 }
 footer a, footer p, footer li{
-	font-family: 'latoregular', Verdana, times, sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-bottom:6px;
 	line-height:1em;
 	list-style-type:square;
@@ -184,13 +184,13 @@ nav a.white_ice {
 	padding-bottom:5px;
 }
 .content img{
-	float:right;
-	padding-left:10px;
+	width:100%;
 	padding-right:10px;
 }
 
 .content p{
 	text-align:left;
+	margin-top:0px;
 }
 
 .item_description{
