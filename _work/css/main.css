@@ -95,6 +95,7 @@ nav a, nav a:visited {
 */
 
 .nav_link {
+	color:white;
 	float: left;
 	width:100%;
 	cursor:pointer;
@@ -110,9 +111,8 @@ nav a, nav a:visited {
 	color: #FFD159
 }
 
-footer h3, a{
+footer h3, footer a{
 	color:white;
-	border-top:thick solid #303030;
 	margin-top:25px;
 
 }
@@ -191,7 +191,6 @@ nav a.white_ice {
 	padding-right:10px;
 }
 
-<<<<<<< HEAD
 .item_description > img{
 	float:left;
 	width:50%;
@@ -243,7 +242,7 @@ nav a.white_ice {
 .payment_input{
 	line-height:2em;
 	padding:.3em;
-=======
+}
 .content p{
 	text-align:left;
 	margin-top:0px;
@@ -297,7 +296,6 @@ nav a.white_ice {
 .payment_input input{
 	display:block;
 	margin-bottom:1em;
->>>>>>> refs/remotes/origin/makingFlexible
 }
 
 @font-face {
