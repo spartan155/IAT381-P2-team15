@@ -32,6 +32,10 @@
 	text-align: left;
 }
 
+/* This part removes a pesky blue underline on the product thumbnails */
+.col-1of2 a {
+		text-decoration: none;
+}
 
 
 @media (max-width:700px) {
