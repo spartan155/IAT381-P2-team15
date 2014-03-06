@@ -455,6 +455,7 @@ footer a, footer p, footer li{
 	display:block;
 	position:relative;
 	line-height:.5em;
+	font-size:.8em;
 }
 
 .product_features p{
