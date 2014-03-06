@@ -18,6 +18,14 @@
 	box-sizing: border-box;
 }
 
+.col-1of1{
+	width:100%;
+}
+
+.col-1of1 img{
+	width:100%;
+}
+
 .col-1of2 {
 	width: 50%;
 	text-align: left;
