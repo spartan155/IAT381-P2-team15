@@ -1,0 +1,148 @@
+<!doctype html>
+<!-- Set up the html page -->
+<html> 
+<!-- Header; Set up character-set; link to CSS style-sheet; -->
+	<head>
+		<!-- Meta tag chooses which character set to render page with -->
+		<meta charset="utf-8">
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+		<link href="css/lightbox.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<title>Marathon</title>
+		<!-- Close head tag -->
+	</head>
+	<body>
+		<header class="container_header">
+			<div class="logo">
+				<img src="images/sienar_full_logo_final.png">
+			</div>
+			<!-- Setup/close navigation links -->		
+			<nav class="grid"> 
+				<div class="col-1of4">
+					<a href='index.html' class='nav_link'>Home</a></li>
+				</div>
+				<div class="col-1of4">
+					<a href='#' class='nav_link'>About Us</a></li>
+				</div>
+				<div class="col-1of4">
+					<a href="#" class='nav_link'>Vessels</a></li>
+				</div>
+				<div class="col-1of4">
+					<a href="#" class='nav_link'>Contact Us</a></li>
+				</div>
+			</nav>				
+		</header> <!-- end of header container -->	
+		<div class="container_content"> <!-- The content container class to hold the info between header & footer -->
+			<div class="grid"> <!-- Grid class to contain the 2 columns I need -->
+				<div class="col-1of2"> <!-- First column to contain the product Picture and Title -->
+					<h2>Marathon Heavy Cruiser</h2> <!-- Title -->
+					<a href="images/ship_products/marathon/marathon_p.png" data-lightbox="marathon=gallery" title="Marathon Heavy Cruiser"><img src="images/ship_products/marathon/marathon_p.png" width="400" height="300"> <!-- Product picture --></a>
+					
+					<a href="images/ship_products/marathon/marathon_t.png" data-lightbox="marathon=gallery" title="Dorsal view"><img src="images/ship_products/marathon/marathon_t.png" width="30%" height="30%"> <!-- Product picture --></a>
+
+					<a href="images/ship_products/marathon/marathon_s.png" data-lightbox="marathon=gallery" title="Side view"><img src="images/ship_products/marathon/marathon_s.png" width="30%" height="30%"> <!-- Product picture --></a>
+
+					<a href="images/ship_products/marathon/marathon_f.png" data-lightbox="marathon=gallery" title="Aft view"><img src="images/ship_products/marathon/marathon_f.png" width="30%" height="30%"> <!-- Product picture --></a>
+					
+					<table border="1" style="border-collapse:collapse;width:200%;"> <!-- These options, create a table; set a boarder, and create a grid pattern. -->
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;width:30%;">Armaments</th><td style="padding:3px;width:80%;"><strong>8:</strong> Ion Cannons; <strong>50</strong> Heavy Turbolaser Batteries; <strong>50</strong> Turbolaser Batteries; <strong>10:</strong> Phylon-Q7 Tractor Beam Projectors; <strong>72:</strong> TIE-series starfighters; <strong>8:</strong> Lambda shuttles; <strong>20:</strong> AT-AT walkers; <strong>30:</strong> AT-ST walkers;</td> <!-- This comment applies to the rest of the table rows too but the tr symbol stands for table row; the th stands for table heading; & td is a table division (basically just a non-bold th); padding separates the cells, background colour is useful because th and td are separate elements and so you can change their colour seperately, width is set in percentages to separate from the total screen width and maintain a 1:3 ratio between heading and description -->
+							</tr>
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Power-Plant</th><td style="padding:3px;">Shaw-Fujikawa=<strong> 5 × 10^8 W</strong></td>
+							</tr>
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Engines</th><td style="padding:3px;"><strong>2:</strong> Cruiser Chem-Thrust Engines; <strong>4:</strong> Light Chem-Thrust Engines</td>
+							</tr>
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Hyperdrive Rating</th><td style="padding:3px;"><strong>Primary:</strong>Class 6 </td>
+							</tr>
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Length</th><td style="padding:3px;">580 meters</td>
+							</tr>		
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Crew Compliment</th><td style="padding:3px;">7,000</td>
+							</tr>		
+							<tr>
+								<th style="padding:3px;background-color:#9C9C9C;">Cargo Capacity</th><td style="padding:3px;">18,000 tons</td>
+							</tr>									
+						</table>
+				</div> <!-- End of col-1of3 -->
+				<div class="col-1of2"> <!-- Second column to contain the product Picture and Title -->
+					<div class="item_description"> <!-- Class to controll the item description. This class controls commands to make the image correspont to the em size of the h2 font -->
+						<h2><img src="images/credits.png">96,390,000</h2> <!-- Had a height="20px" doing nothing in here-->
+						<div class="add_to_cart"><strong>Add to cart</strong></div>
+						<p><strong>Product Description:</strong>The marathon heavy-cruiser is a legacy ship from the Eridani system. In operation 10,000 years ago it relied on bulk heading rather than shielding to absorb damage. This refitted classic model keeps the same bulkheads which gave the Marathon its reputation as a punishment absorber as well as outfitting it with modern shielding and proton-torpedoes. </p>	
+
+						
+
+<!-- THIS SECTION IS JUNK 'DNA' TESTING DIFFERENT TABLE STYLES
+
+						<table border="1" style="background-color:#828282;border:1px black;width:100%;border-collapse:collapse;">
+							<tr style="background-color:orange;color:#000000;box-shadow:inset 0.5px 0.5px 8px #FF4D00;">
+								<th style="padding:3px;">Table header</th><td style="padding:3px;">Table header</td>
+							</tr>
+							<tr>
+								<th style="padding:3px;">Table cell 1</th><td style="padding:3px;">Table cell 2</td>
+							</tr>
+						</table>
+
+						<table border="1" style="background-color:#828282;border:1px black;width:100%;border-collapse:collapse;">
+							<tr style="background-color:orange;color:#000000;box-shadow:inset 0.5px 0.5px 8px #FF4D00;">
+								<th style="padding:3px;">Table header</th><th style="padding:3px;">Table header</th><th style="padding:3px;">Table header</th><th style="padding:3px;">Table header</th><th style="padding:3px;">Table header</th><th style="padding:3px;">Table header</th>
+							</tr>
+							<tr>
+								<td style="padding:3px;">Table cell 1</td><td style="padding:3px;">Table cell 2</td><td style="padding:3px;">Table cell 1</td><td style="padding:3px;">Table cell 2</td><td style="padding:3px;">Table cell 1</td><td style="padding:3px;">Table cell 2</td>
+							</tr>
+						</table>
+-->
+					</div> <!-- end of item description -->	
+				</div> <!-- end of col-1of2 -->
+			</div> <!-- end of grid -->
+		</div> <!-- end of header container -->	
+		
+		<div class="container_footer">
+				<div class="footer">
+					<div class="grid">
+						<div class="col-1of3">
+							<div class="widget_1">
+									<h3>Quick Links:</h3>
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Products</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+							</div><!-- end of widget1 -->
+						</div><!-- end of column -->
+						
+						<div class="col-1of3">
+							<div class="widget_2">
+								<h3>Our Allies:</h3>
+								<ul>
+									<li><a href="http://starwars.wikia.com/wiki/Kuat_Drive_Yards">Kuat Drive Yards</a></li>
+									<li><a href="http://starwars.wikia.com/wiki/Galactic_Empire">Galactic Empire</a></li>
+									<li><a href="http://starwars.wikia.com/wiki/Merr-Sonn_Munitions,_Inc.">Merr-Sonn Munitions, Inc.</a></li>
+									<li><a href="http://starwars.wikia.com/wiki/Tagge_Company">Tagge Company</a></li>
+								</ul>
+							</div><!-- end of widget2 -->
+						</div><!-- end of column -->
+						
+						<div class="col-1of3">
+							<div class="widget_3">
+								<h3>Join our Newsletter:</h3>
+								<p>Email Address:</p>
+								<input type="text" id="email-input" name="email-input" placeholder="Type email here">
+								<a href="#" class="subscribe_btn">Subscribe</a>
+							</div><!-- end of widget3 -->
+						</div><!-- end of column -->
+						
+					</div><!-- end of grid -->
+				</div><!-- end of footer -->
+				
+		</div> <!-- end of footer container -->
+	</body>
+</html>
