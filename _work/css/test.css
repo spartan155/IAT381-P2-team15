@@ -97,7 +97,7 @@ p, ul, ol {
 }
 
 header nav{
-	width:50%;
+	width:60%;
 	display:inline;
 	float:right;
 
@@ -155,7 +155,7 @@ nav a, nav a:visited {
 	float: left;
 	width:100%;
 	cursor:pointer;
-	border-left:1px solid gray;
+	border-left:1px solid rgb(50,50,50);
 	background-color:none;
 	border-bottom: solid 5px #gray;
 	transition:background-color 0.5s ease;
@@ -231,14 +231,21 @@ footer a, footer p, footer li{
 }
 
 .logo{
-	width:50%;
 	height:auto;
 	display:inline;
 }
 
 .logo img{
+	width:100%;
+	max-width:22em;
 	padding-right:.5em;
 }
+
+.container_header > .grid > .col-1of2{/*the specific container for the logo and img*/
+	width:40%;	
+}
+
+
 .content img{
 	width:100%;
 	padding-right:10px;
