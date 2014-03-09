@@ -164,3 +164,7 @@
 		background-color:#1a1a1a;
 		border-bottom:none;
 	}
+	.nav_link:hover{
+		border-bottom:solid 5px gray
+	}
+}
