@@ -18,13 +18,17 @@
 	box-sizing: border-box;
 }
 
+.col-1of1{
+	width:100%;
+}
+
+.col-1of1 img{
+	width:100%;
+}
+
 .col-1of2 {
 	width: 50%;
 	text-align: left;
-}
-
-.col-1of4{
-	width: 25%;
 }
 
 .col-1of3 {
@@ -32,33 +36,140 @@
 	text-align: left;
 }
 
+.col-1of4{
+	width: 25%;
+}
+
+.col-1of5{
+	width:20%;
+}
+
+
 /* This part removes a pesky blue underline on the product thumbnails */
 .col-1of2 a {
 		text-decoration: none;
 }
+.col-2of3 {
+	width: 66.666%;
+}
+.col-1of12{
+	width: 12.5%;
+}
 
+@media (max-width:1520px){
+	.product_price{
+		float:left;
+		line-height:0em;
+		clear:both;
+	}
+	.product_name, .product_name h2{
+		position:relative;
+		margin-bottom:0;
+	}
+	
+}
+
+@media (max-width:1366px) {
+	.container_header, .container_content, .container_footer{
+		width:70%
+	}
+	.container_header > .grid > .col-1of2{ /*shrinks  the logo container */
+		width:40%;
+	}
+	header nav{
+		width:60%;
+	}
+	.product_name, .product_name h2{
+		position:relative;
+		margin-bottom:0;
+	}
+	.logo img{
+		width:100%;
+	}
+	.product_price{
+		float:left;
+		line-height:0em;
+		clear:both;
+	}
+	.product_name, .product_name h2{
+		position:relative;
+		margin-bottom:0;
+	}
+	.product_features{
+		line-height:1em;
+	}
+}
+/*
+@media (max-width:1115px) {
+	.container_header > .grid > .col-1of2{ shrinks  the logo container 
+		width:30%;
+	}
+	.logo, .logo img	{
+		width:100%;
+	}
+	header nav{
+		width:70%;
+	}
+} */
+
+@media (max-width:960px) {
+	.container_header, .container_content, .container_footer{
+		width:80%
+	}
+	.container_header > .grid > .col-1of2{
+		width:100%;
+		text-align:center;
+	}
+	.logo img{
+		width:40%;
+		min-width:17em;
+	}
+	
+	header nav {
+		width:100%;
+		display:block;
+		position:inherit;
+	}
+	.col-1of3{
+		width:50%;
+	}
+	footer input{
+		max-width:12em;
+		margin-right:2em;
+	}
+}
 
 @media (max-width:700px) {
 	.col-1of2{
 		width:100%;
 	}
 	
-	.col-1of4{
-		width:50%;
-	}
-	.nav_link {
-		border-bottom:1px solid black;
-	}
 }
 
 @media (max-width:570px) {
 	.logo img{
 		width:100%;
 	}
-}
-
-@media (max-width:540px) {
-	.col-1of4{
+	.col-1of5{
 		width:100%;
+	}
+	.col-1of3{
+		width:100%;
+	}
+	nav a{
+		padding:.5em;
+	}
+	.nav_link{
+		border-left:none;
+		border-top:1px solid rgb(50,50,50);
+		background-color:#1a1a1a;
+		border-bottom:none;
+	}
+	.nav_link_home{
+		background-color:#1a1a1a;
+		border-bottom:none;
+	}
+	.nav_link:hover{
+		border-bottom:solid 5px gray
 	}
 }
