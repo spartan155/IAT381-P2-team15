@@ -61,6 +61,14 @@ a:focus{
 	outline: none !important; 
 }
 
+a:visited{
+	color:rgb(100, 100, 100);
+}
+
+footer a:visited{
+	color:white;
+}
+
 /* Container: for all the page content to fit within */
 .container_all{
 	min-height:100%;

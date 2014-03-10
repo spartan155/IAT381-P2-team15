@@ -57,16 +57,16 @@
 				<div class="col-1of2"> <!-- First column to contain the product Picture and Title -->
 					<div class="vessel_images">
 						<div class="vessel_image_main"> <!-- a container for the main image -->
-							<a href="images/ship_products/tie_interceptor/tie_int_p.png" data-lightbox="tieint=gallery" title="Tie/ln Interceptor"><img src="images/ship_products/tie_interceptor/tie_int_p.png"><!-- Product pictureZ --></a>
+							<a href="images/ship_products/tie_interceptor/tie_int_p.png" data-lightbox="tieint=gallery" title="Tie/ln Interceptor"><img src="images/ship_products/tie_interceptor/tie_int_p.png" alt="TIE Fighter Main Image"><!-- Product pictureZ --></a>
 						</div><!--end of vessel main image -->
 						
 						<div class="vessel_image_sub">	<!-- a container for the sub image -->
 							
-							<a href="images/ship_products/tie_interceptor/tie_int_t.png" data-lightbox="tieint=gallery" title="Dorsal view"><img src="images/ship_products/tie_interceptor/tie_int_t.png"><!-- Product picture --></a>
+							<a href="images/ship_products/tie_interceptor/tie_int_t.png" data-lightbox="tieint=gallery" title="Dorsal view"><img src="images/ship_products/tie_interceptor/tie_int_t.png" alt="TIE Fighter Top View"><!-- Product picture --></a>
 						
-							<a href="images/ship_products/tie_interceptor/tie_int_s.png" data-lightbox=	"tieint=gallery" title="Side view"><img src="images/ship_products/tie_interceptor/tie_int_s.png"><!-- Product picture --></a>
+							<a href="images/ship_products/tie_interceptor/tie_int_s.png" data-lightbox=	"tieint=gallery" title="Side view"><img src="images/ship_products/tie_interceptor/tie_int_s.png" alt="TIE Fighter Side View"><!-- Product picture --></a>
 						
-							<a href="images/ship_products/tie_interceptor/tie_int_b.png" data-lightbox="tieint=gallery" title="Aft view"><img src="images/ship_products/tie_interceptor/tie_int_b.png"><!-- Product picture --></a>
+							<a href="images/ship_products/tie_interceptor/tie_int_b.png" data-lightbox="tieint=gallery" title="Aft view"><img src="images/ship_products/tie_interceptor/tie_int_b.png" alt="TIE Fighter Bottom View"><!-- Product picture --></a>
 						</div>
 					</div>
 					
@@ -74,7 +74,7 @@
 				<div class="col-1of2"> <!-- Second column to contain the product Picture and Title -->
 					<div class="item_description"> <!-- Class to controll the item description. This class controls commands to make the image correspont to the em size of the h2 font -->
 						<h1>Tie/ln Interceptor</h1>
-						<h2><img src="images/credits.png">80,000</h2> <!-- Had a height="20px" doing nothing in here-->
+						<h2><img src="images/credits.png" alt="Credits symbol">80,000</h2> <!-- Had a height="20px" doing nothing in here-->
 						<div class="vessel_rating">
 						<strong>RATING:</strong>	
 							<ul class="rating">
@@ -84,7 +84,11 @@
 								<li><a class="star"></a></li>
 								<li><a class="blank"></a></li>
 							</ul>
-							<!-- this is a working rating system for when the user does their own review
+							
+							<!-- for the rating system, we followed the tutorial posted at http://www.htmldrive.net/items/show/402/CSS-Star-Rating-System
+							but using our own assets as well as giving it our own teaks. -->
+							
+							<!-- this is a working rating system for when the user does their own review, while the above rating is fixed at 4/5
 							<ul class="set_rating">
 								<li><a href="#" title="1 Star">1</a></li>
 								<li><a href="#" title="2 Stars">2</a></li>
@@ -104,7 +108,7 @@
 							<p>Extremely agile and, as with the Tie/ln Fighter, completely unshielded. The lack of shielding is made up for by the Tie Interceptor's small silhouette and blinding sublight speeds. It sports four laser cannons on the tips of its wings and is so maneuverable that a skilled pilot can literally fly circles around a T-65 X-wing.</p>
 							<p>The four solar panels collect ionizing radiation from any solar source converting it into the very fuel and electrical energy which powers its twin ion engines. This effectively grants the Interceptor unlimited fuel for combat engagement at the cost of removing the hyperdrive generator. This tradeoff is necessary as we have reduced weight by eliminating the need for a generator and reducing the overall size and complexity of the ship design to serve its role more fully. The lack of exotic parts makes repair and maintanence much cheaper, less time consuming and requiring less technical expertise in a combat situation.</p>
 						</div>
-
+					
 
 					</div> <!-- end of item description -->	
 				</div> <!-- end of col-1of2 -->
@@ -170,6 +174,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum id leo non congue. Mauris condimentum nulla nec nulla dignissim mollis. Aenean vel ipsum ac arcu interdum congue. Suspendisse porta velit eu ipsum posuere porta. Sed dictum laoreet augue. Duis at imperdiet felis. Aliquam erat volutpat. Cras quis neque lorem.</p>
 							</div> <!-- end of review_full -->
 						</div><!-- end of single review -->
+						
 						<div class="review"> <!-- the starting container for one review -->
 							<div class="review_profile"> <!-- this includes the reviewer's name, and their rating -->
 								<div class="review_name">
@@ -213,7 +218,7 @@
 								<textarea id="form-comments" name="form-comments" placeholder="Enter your comments here..."></textarea>	
 							</form>
 						</div>
-						<div class="submit_review_button" id="toggleSpecs">
+						<div class="submit_review_button" id="submitReview">
 							<h3>SUBMIT</h3>
 						</div>
 					</div>
@@ -222,8 +227,7 @@
 				</div><!-- end of column -->
 			</div> <!-- end of grid -->
 			</div> <!-- end of content -->
-		</div> <!-- end of content container -->	
-		</div>	
+		</div> <!-- end of content container -->		
 		<div class="footer_background">
 			<footer class="container_footer">
 				<div class="grid">

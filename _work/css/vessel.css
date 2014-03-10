@@ -301,7 +301,9 @@ textarea{
 	padding:.5em;
 	height:10em;
 	width:100%;
+	max-width:100%;
 	margin-top:.5em;
+	line-height:1.5em;
 }
 
 .user_rating{
