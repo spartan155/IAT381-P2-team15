@@ -422,7 +422,7 @@ footer a, footer p, footer li{
 
 .product_img{
 	background-color:rgba(175, 175, 175, 0.5);
-	
+	transition:background-color .2s ease;
 }
 
 .product_img:hover{
@@ -434,13 +434,15 @@ footer a, footer p, footer li{
 }
 
 .product_name {
-	position:absolute;
 	display:block;
 	line-height:1em;
+	position:relative;
+	margin-bottom:0;
 }
 
 .product_name > h2{
-	font-size:1.5em;
+	position:relative;
+	margin-bottom:0;
 }
 
 .product_name a, .product_name a:visited{
@@ -453,9 +455,9 @@ footer a, footer p, footer li{
 }
 
 .product_price{
-	float:right;
-	display:inline;
-	line-height:1em;
+	float:left;
+	line-height:0em;
+	clear:both;
 }
 
 .product_price h3{

@@ -57,18 +57,6 @@
 	width: 12.5%;
 }
 
-@media (max-width:1520px){
-	.product_price{
-		float:left;
-		line-height:0em;
-		clear:both;
-	}
-	.product_name, .product_name h2{
-		position:relative;
-		margin-bottom:0;
-	}
-	
-}
 
 @media (max-width:1366px) {
 	.container_header, .container_content, .container_footer{
