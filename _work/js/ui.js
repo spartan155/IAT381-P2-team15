@@ -20,11 +20,17 @@ $(document).ready( function() {
 	*/
 	$("#vesselSpecs").hide();
 	$("#reviews").hide();
+	$("#addReview").hide();
+	
 	$("#toggleSpecs").click(function(){
 		$("#vesselSpecs").slideToggle();
+
 	});
 	$("#toggleReviews").click(function(){
 		$("#reviews").slideToggle();
 	});
 	
+	$("#toggleAddReview").click(function(){
+		$("#addReview").slideToggle();
+	});
 });

@@ -1,3 +1,8 @@
+.item_description h1{
+	font-size:1.6em;
+	margin:0;
+}
+
 .vessel_images{
 	width:100%;
 	padding:1em;
@@ -51,13 +56,14 @@
 }
 
 .vessel_info_button{
+	border: 1px solid #868686;
 	background: -webkit-gradient(linear, left top, left bottom, from(#861D24), to(#4D0005));
 	background: -webkit-linear-gradient(top, #861D24, #4D0005);
 	background: -moz-linear-gradient(top, #861D24, #4D0005);
 	background: -ms-linear-gradient(top, #861D24, #4D0005);
 	background: -o-linear-gradient(top, #861D24, #4D0005);
-	width:100%;
 	background-color:#861D24;
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
 	padding:.5em;
 	transition:background-color .2s ease;
 	-webkit-border-radius: 5px;
@@ -65,14 +71,89 @@
 	border-radius: 5px;
 	transition:box-shadow 0.5s ease, background 0.5s ease;
 	cursor:pointer;
-	margin-top:1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	width:20em;	
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.add_review_button{
+	border: 1px solid #868686;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1D5886), to(#003B4D));
+	background: -webkit-linear-gradient(top, #1D5886, #003B4D);
+	background: -moz-linear-gradient(top, #1D5886, #003B4D);
+	background: -ms-linear-gradient(top, #1D5886, #003B4D);
+	background: -o-linear-gradient(top, #1D5886, #003B4D);
+	background-color:#1D5886;
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	padding:.5em;
+	transition:background-color .2s ease;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	transition:box-shadow 0.5s ease, background 0.5s ease;
+	cursor:pointer;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	width:20em;	
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.submit_review_button{
+	border: 1px solid #868686;
+	background: #a67012;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dbb90f), to(#a67012));
+	background: -webkit-linear-gradient(top, #dbb90f, #a67012);
+	background: -moz-linear-gradient(top, #dbb90f, #a67012);
+	background: -ms-linear-gradient(top, #dbb90f, #a67012);
+	background: -o-linear-gradient(top, #dbb90f, #a67012);
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	padding:.5em;
+	transition:background-color .2s ease;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	transition:box-shadow 0.5s ease, background 0.5s ease;
+	cursor:pointer;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	width:10em;	
+	position:relative;
+	display:block;
+	float:right;
+	text-align:center;
+}
+.submit_review_button:hover{
+	box-shadow:inset 0px 0px 7px #1D1D1D;
 }
 
 .vessel_info_button:hover{
 	box-shadow:inset 0px 0px 10px #CACACA;
 }
 
+.add_review_button:hover{
+	box-shadow:inset 0px 0px 10px #CACACA;
+}
+
 .vessel_info_button h3{
+	margin:0;
+	color:white;
+}
+
+.add_review_button h3{
+	margin:0;
+	color:white;
+}
+
+.submit_review_button h3{
 	margin:0;
 	color:white;
 }
@@ -90,6 +171,7 @@ tr, th, td{
 	line-height:1em;
 	width:50%;
 }
+
 th{
 	padding-left:4em;
 	width:30%;
@@ -98,6 +180,7 @@ th{
 tr:nth-child(even) {
 	background: white;
 }
+
 tr:nth-child(odd) {
 	background: #E6E6E6;
 }
@@ -142,7 +225,6 @@ ul.rating li{
 	overflow:hidden;
 }
 
-
 ul.set_rating{
 	background:url(../images/imperial.png) bottom;
 	height:42px;
@@ -174,33 +256,85 @@ ul.set_rating li{
 .set_rating a:active {
 	background-position:top;
 }
+
 .vessel_reviews{
 	padding:1em;
 	padding-top:1em;
 	clear:both;
 }
+
 .review{
 	border-bottom:dashed 1px gray;
 }
+
 .review_profile{
 	width:30%;
 	display:block;
 	position:relative;
 		margin-top:.5em;
 }
+
 .review_profile h4{
 	margin:0;
 	margin-bottom:1em;
 
 }
+
 .review_name{
 	margin-bottom:1em;
 }
+
 .review_full{
 	width:100%;
 	display:block;
 }
 
-@media (max-width:570px) {
+form{
+	display:inline;
+}
 
+input{
+	padding:.5em;
+}
+
+textarea{
+	padding:.5em;
+	height:10em;
+	width:100%;
+	margin-top:.5em;
+}
+
+.user_rating{
+	margin-top:1em;
+}
+@media (max-width:960px) {
+	.vessel_image_sub img{
+		width:15%;
+	}
+	.vessel_images{
+		padding-bottom:0;
+	}
+}
+
+
+@media (max-width:570px) {
+	.vessel_info_button{
+		width:100%;
+		left:0;
+	}
+	.vessel_images{
+		padding:0;
+	}
+	.item_description{
+		padding:0;
+	}
+	.vessel_specs{
+		padding:0;
+	}
+	th{
+		padding-left:1em;
+	}
+	tr{
+		padding:.5em;
+	}
 }
