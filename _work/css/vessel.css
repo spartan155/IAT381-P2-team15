@@ -268,7 +268,7 @@ ul.set_rating li{
 }
 
 .review_profile{
-	width:30%;
+	width:100%;
 	display:block;
 	position:relative;
 		margin-top:.5em;
@@ -322,6 +322,10 @@ textarea{
 		width:100%;
 		left:0;
 	}
+	.add_review_button{
+		width:100%;
+		left:0;
+	}
 	.vessel_images{
 		padding:0;
 	}
@@ -330,6 +334,10 @@ textarea{
 	}
 	.vessel_specs{
 		padding:0;
+	}
+	.vessel_reviews{
+		padding-left:0;
+		padding-right:0;
 	}
 	th{
 		padding-left:1em;
