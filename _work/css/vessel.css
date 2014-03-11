@@ -162,6 +162,17 @@
 	box-shadow:inset 0px 0px 7px #1D1D1D;
 }
 
+#submitted{
+	display:none;
+	box-shadow:inset 0px 0px 7px #1D1D1D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1D863F), to(#004D12));
+	background: -webkit-linear-gradient(top, #1D863F, #004D12);
+	background: -moz-linear-gradient(top, #1D863F, #004D12);
+	background: -ms-linear-gradient(top, #1D863F, #004D12);
+	background: -o-linear-gradient(top, #1D863F, #004D12);
+	background-color:#1D863F;
+}
+
 .vessel_info_button:hover{
 	box-shadow:inset 0px 0px 10px #CACACA;
 }

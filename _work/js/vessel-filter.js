@@ -5,18 +5,32 @@ $(document).ready( function() {
 		To get the fade to work, I googled 'jquery fade hide' and followed the documentation at:
 		http://api.jquery.com/fadeout/
 	*/
-	
 	$("#vessel_filter").hide();
 	
 	$("#toggleFilter").click(function(){
 		$("#vessel_filter").slideToggle();
 	});
 	
+	/* option to toggle all checkboxes off */
+	$( "#selectNone" ).click(function() {
+		$(".checkbox").prop("checked", false);
+		$(".vessel").fadeOut("medium", function() {
+			// Animation complete.
+		});
+	});
+	
+	$( "#selectAll" ).click(function() {
+		$(".checkbox").prop("checked", true);
+		$(".vessel").fadeIn("medium", function() {
+			// Animation complete.
+		});
+	});
+	
 	/*Toggle for all FIGHTERS */
 	$( "#fighterToggle" ).click(function() {
 		if (this.checked){
 			$(".fighter").fadeIn("medium", function() {
-		
+			
 			// Animation complete.
 			});
 		}else{

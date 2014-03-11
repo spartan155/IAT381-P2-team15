@@ -32,4 +32,8 @@ $(document).ready( function() {
 	$("#toggleAddReview").click(function(){
 		$("#addReview").slideToggle();
 	});
+	$("#submitReview").click(function(){
+		$("#submitReview").hide();
+		$("#submitted").show();
+	});
 });
