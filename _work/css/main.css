@@ -244,6 +244,11 @@ footer a, footer p, footer li{
 	text-decoration: none;
 }
 
+#about_img{
+	width:50%;
+	float:right;
+}
+
 .widget_1{
 	height:150px;
 	margin-right:30px;
@@ -329,6 +334,7 @@ footer a, footer p, footer li{
 	line-height:2em;
 	padding:.3em;
 }
+
 .content p{
 	text-align:left;
 	margin-top:0px;
@@ -355,7 +361,6 @@ footer a, footer p, footer li{
 	margin-top:.5em;
 }
 
-
 .add_to_cart{
 	border: 1px solid #868686;
 	background: #a67012;
@@ -373,6 +378,7 @@ footer a, footer p, footer li{
 	color: white;
 	font-size: 1.2em;
 	font-family: roboto;
+	font-weight:900;
 	text-decoration: none;
 	text-align:center;
 	width:6em;
@@ -382,6 +388,36 @@ footer a, footer p, footer li{
 	width:8em;
 }
 
+.yellow_button{
+	border: 1px solid #868686;
+	background: #a67012;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dbb90f), to(#a67012));
+	background: -webkit-linear-gradient(top, #dbb90f, #a67012);
+	background: -moz-linear-gradient(top, #dbb90f, #a67012);
+	background: -ms-linear-gradient(top, #dbb90f, #a67012);
+	background: -o-linear-gradient(top, #dbb90f, #a67012);
+	padding: .2em .5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow:inset 0px 0px 0px #1D1D1D;
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	color: white;
+	font-size: 1.2em;
+	font-family: roboto;
+	font-weight:900;
+	text-decoration: none;
+	text-align:center;
+	width:6em;
+	cursor:pointer;
+	transition: box-shadow .3s ease;
+	display:block;
+	width:8em;
+}
+
+.yellow_button:hover{
+	box-shadow:inset 0px 0px 7px #1D1D1D;
+}
 .add_to_cart:hover{
 	box-shadow:inset 0px 0px 7px #1D1D1D;
 }

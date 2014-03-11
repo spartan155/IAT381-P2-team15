@@ -7,7 +7,10 @@
 		<meta charset="utf-8">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/contact.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/ui.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 		<title>Contact</title>
@@ -47,67 +50,53 @@
 		<!-- XXXXXXXXXXXX HEADER END XXXXXXXXXXXXX -->
 		<div class="container_content">
 			<div class="content">
+			<h2>CONTACT US</h2>
 				<div class="grid">
-					<div class="col-1of3">
-						<div class="widget_7">
-							<h3>Contact Sienar Support</h3>
-							<ul>
-								<li><strong>Phone:</strong></li>
-								<li>1-800-867-5309</li>
-								<li><strong>Corporate Office Address:</strong></li>
-								<li>Coruscant, Coruban region, street coordinates X: 4359 Y: 3827 Z: 8048</li>
-								<li><strong>Holo-mail:</strong></li>
-								<li>Sienarsupport@SFS.com</li>
-							</ul>
-						</div><!-- end of widget_4 -->
+					<div class="col-1of3" id="contact_info">
+						<h3>Sienar Support:</h3>
+						<p><strong>Phone: </strong>1-800-867-5309</p>
+						<p><strong>Corporate Office Address: </strong>Coruscant, Coruban region, street coordinates X: 4359 Y: 3827 Z: 8048</p>
+						<p><strong>Holo-mail: </strong>Sienarsupport@SFS.com</p>
 					</div><!-- end of col-1of3 -->
 					
-					<div class="col-1of3">
-						<div class="widget_8">
-							<h3>Do you have some feedback?</h3>
-							<p> <!-- This p designates the font used in this section as Lato; this section is the form to fill to submit comments to the company directly -->
-								<!-- form which places in titles and text fields to fill in -->
-								<form method="post" action="#" id="comments">
-									<label for="form-name">Name:</label>
-								</form>
-								<form>
-									<input type="text" id="form-name" name="form-name" placeholder="Your Name Here">
-								</form>
-								<form>
-									<p>   </p>
-								</form>
-								<form>
-									<label for="form-subject">Subject:</label>
-								</form>
-								<form>
-									<input type="text" id="form-subject" name="form-subject" placeholder="Subject">
-								</form>
-									<form>
-									<p>   </p>
-								</form>
-								<form>
-									<label for="form-email">Email Address:</label>
-								</form>
-								<form>
-									<input type="text" id="form-email" name="form-email" placeholder="Email Address">
-								</form>
-								<form>
-									<p>   </p>
-								</form>
-								<form>
-									<label for="form-comments">Comments:</label>
-								</form>
-								<form>
-									<textarea id="form-comments" name="form-comments" placeholder="Comments"></textarea>
-								</form>
-								<form>
-									<p>   </p>
-								</form>
-								<form>
-									<input type="submit" value="Submit">
-								</form>
-							</p>
-						</div> <!-- end of widget_4 -->
+					<div class="col-2of3" id="feedback">
+						<h3>Do you have some feedback?</h3>
+							
+							<form>
+								<div class="form_label">
+									<strong>NAME: </strong>
+								</div>
+								<input type="text" id="form-name" name="form-name" placeholder="Your Name Here">
+							</form>
+							
+							<form>
+								<div class="form_label">
+									<strong>EMAIL: </strong>
+								</div>
+								<input type="text" id="form-email" name="form-email" placeholder="Email Address">
+							</form>
+							
+							<form>
+								<div class="form_label">
+									<strong>SUBJECT: </strong>
+								</div>
+								<input type="text" id="form-subject" name="form-subject" placeholder="Subject">
+							</form>
+							
+							<form>
+								<div class="form_label">
+									<strong>COMMENTS: </strong>
+								</div>
+								<textarea id="form-comments" name="form-comments" placeholder="Comments"></textarea>
+							</form>
+
+							<div id="submitComment" class="yellow_button">
+								SUBMIT
+							</div>
+							<div class="yellow_button" id="submitted">
+								SUBMITED!
+							</div>
+							
 					</div> <!-- end of column-1of3 -->
 				</div> <!-- End of FIRST GRID [seems to bump all further content down one level-->
 			</div> <!-- end of content -->
@@ -118,31 +107,30 @@
 			<footer class="container_footer">
 				<div class="grid">
 					<div class="col-1of3">
-								<h3>Quick Links:</h3>
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about_us.html">About</a></li>
-									<li><a href="vessels.html">Vessels</a></li>
-									<li><a href="contact_us.html">Contact Us</a></li>
-								</ul>
+						<h3>Quick Links:</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About</a></li>
+							<li><a href="vessels.html">Vessels</a></li>
+							<li><a href="contact_us.html">Contact Us</a></li>
+						</ul>
 					</div><!-- end of column -->
 					
 					<div class="col-1of3">
-							<h3>Our Allies:</h3>
-							<ul>
-								<li><a href="#">Kuat Drive Yards</a></li>
-								<li><a href="#">Galactic Empire</a></li>
-								<li><a href="#">Merr-Sonn Munitions, Inc.</a></li>
-								<li><a href="#">Tagge Company</a></li>
-							</ul>
+						<h3>Our Allies:</h3>
+						<ul>
+							<li><a href="http://starwars.wikia.com/wiki/Kuat_Drive_Yards">Kuat Drive Yards</a></li>
+							<li><a href="http://starwars.wikia.com/wiki/Galactic_Empire">Galactic Empire</a></li>
+							<li><a href="http://starwars.wikia.com/wiki/Merr-Sonn_Munitions,_Inc.">Merr-Sonn Munitions, Inc.</a></li>
+							<li><a href="http://starwars.wikia.com/wiki/Tagge_Company">Tagge Company</a></li>
+						</ul>
 					</div><!-- end of column -->
+					
 					<div class="col-1of3">
-						<div class="widget_3">
-							<h3>Join our Newsletter:</h3>
-							<p>Email Address:</p>
-							<input type="text" id="email-input" name="email-input" placeholder="Type email here">
-							<a href="#" class="subscribe_btn">Subscribe</a>
-						</div><!-- end of widget3 -->
+						<h3>Join our Newsletter:</h3>
+						<p>Email Address:</p>
+						<input type="text" id="email-input" name="email-input" placeholder="Type email here">
+						<a href="#" class="subscribe_btn">Subscribe</a>
 					</div><!-- end of column -->
 					
 				</div><!-- end of grid -->

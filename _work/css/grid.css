@@ -165,4 +165,7 @@
 	.nav_link:hover{
 		border-bottom:solid 5px gray
 	}
+	#about_img{
+		width:100%;
+	}
 }

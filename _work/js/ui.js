@@ -23,8 +23,8 @@ $(document).ready( function() {
 	
 	$("#toggleSpecs").click(function(){
 		$("#vesselSpecs").slideToggle();
-
 	});
+	
 	$("#toggleReviews").click(function(){
 		$("#reviews").slideToggle();
 	});
@@ -32,8 +32,10 @@ $(document).ready( function() {
 	$("#toggleAddReview").click(function(){
 		$("#addReview").slideToggle();
 	});
-	$("#submitReview").click(function(){
-		$("#submitReview").hide();
+	
+	/* This hides the 'submit' button, replacing it with a 'submitted!' button */
+	$("#submitComment").click(function(){
+		$("#submitComment").hide();
 		$("#submitted").show();
 	});
 });
