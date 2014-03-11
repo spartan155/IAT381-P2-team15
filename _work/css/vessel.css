@@ -436,7 +436,7 @@ input[type="checkbox"]{
 	box-shadow:none;
 }
 
-#added, #toCheckout{
+#yesJS, #added, #toCheckout{
 	display:none;
 }
 
