@@ -47,9 +47,9 @@
 		
 		<div class="container_content">
 			<div class="content">
-				<h2>CART</h2>
+				<h2><a href="cart.html">CART</a> > PAYMENT INFO</h2>
 				<div class="grid add_padding">
-					<div class="col-1of1" id="cart"> <!-- here is the cart, it is filled with some default items -->
+					<div class="col-1of1" id="cart">
 						<p><strong>ORDER DETAILS:</strong></p>
 						<table>
 							<tr>
@@ -61,28 +61,72 @@
 								<td>TIE/In Interceptor</td>
 								<td><img src="images/credits.png" alt="credits">80,000</td>
 								<td>
-								<form><!--Quantity is to show intended functionality, does not  actually effect the next pages -->
-									  <input type="number" name="quantity" min="1" max="100" value="1">
-								</form>
+								1
 								</td>
 							</tr>
 							<tr>
 								<td>Star Destroyer</td>
 								<td><img src="images/credits.png" alt="credits">145,670,000</td>
 								<td>
-								<form><!--Quantity is to show intended functionality, does not  actually effect the next pages -->
-									  <input type="number" name="quantity" min="1" max="100" value="1">
-								</form>
+								1
 								</td>
 							</tr>
 						</table>
-						
-						<a href="payment_info.html">
-						<div class="yellow_button">
-							Proceed to payment info >
-						</div>
-						</a>
 					</div>
+					<h4>PAYMENT INFO:</h4>
+					<div class="col-1of2" id="payment_col1">
+						<form>
+							<div class="form_label">
+								FIRST NAME:
+							</div>
+							<input type="text" id="form-name" class="payment_input" name="form-name" placeholder="First Name">
+						</form>
+						<form>
+							<div class="form_label">
+								LAST NAME:
+							</div>
+							<input type="text" id="form-name" class="payment_input" name="form-name" placeholder="Last Name">
+						</form>
+					</div>
+					<div class="col-1of2" id="payment_col2">
+						<form>
+							<div class="form_label">
+								CREDIT TYPE:
+							</div>
+							<select name="mydropdown">			
+								<option value="Galactic">Galactic Standard Card</option>
+								<option value="Empire">Empire Elite Card</option>
+								<option value="InterGalactic">InterGalactic Banking</option>
+							</select>
+						</form>
+						<form>
+							<div class="form_label">
+								ACCOUNT #:
+							</div>
+							<input type="text" id="form-name" class="payment_input" name="form-name" placeholder="ACCOUNT #">
+						</form>
+						
+					
+						<form>
+							<div class="form_label">
+								BILLING ADDRESS:
+							</div>
+							<input type="text" id="form-name" class="payment_input" name="form-name" placeholder="Your Name Here">
+						</form>
+						<form>
+							<div class="form_label">
+								SHIPPING ADDRESS:
+							</div>
+							<input type="text" id="form-name" class="payment_input" name="form-name" placeholder="Your Name Here">
+						</form>
+					</div>
+					
+					<a href="order_confirmed.html">
+						<div class="yellow_button">
+							CONFIRM ORDER
+						</div>
+					</a>
+					
 				</div> <!-- end of grid -->
 			</div> <!-- end of content -->
 		</div> <!-- end of content container -->	

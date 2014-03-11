@@ -1,0 +1,92 @@
+#cart table{
+	width:100%;
+	border:1px solid gray;
+	margin-bottom:1em;
+}
+
+#cart table img{
+	width:1em;
+	height:1em;
+}
+
+tr, th, td{
+	padding:1em;
+	line-height:1em;
+	width:33.333%;
+	text-align:center;
+}
+
+th{
+	text-align:center;
+	background-color:rgb(216, 186, 186);
+}
+
+tr:nth-child(even) {
+	background: white;
+}
+
+tr:nth-child(odd) {
+	background: #E6E6E6;
+}
+
+input{
+	padding:.5em;
+	width:4em;
+}
+
+select{
+	padding:.5em;
+}
+	
+.yellow_button{
+	float:right;
+	margin-top:1em;
+	margin-bottom:1em;
+	width:15em;
+}
+
+.form_label{
+	display:inline;
+	min-width:10.4em;
+	float:left;
+	padding:.5em;
+	font-size:.9em;
+}
+
+.payment_input{
+	width:9em;
+}
+
+form{
+	margin-bottom:1em;
+}
+
+#confirmation{
+	width:100%;
+	text-align:center;
+	background-color:rgb(213, 255, 213);
+	border:1px solid gray;
+	padding:2em;
+	font-weight:900;
+	margin-bottom:2em;
+}
+
+@media (max-width:570px) {
+	.add_padding{
+		padding-left:0;
+		padding-right:0;
+	}
+	#cart{
+		padding:0;
+	}
+	tr, th, td{
+		font-size:.9em;
+		padding:.5em;
+	}
+	.yellow_button{
+		width:100%;
+	}
+	.payment_input, select{
+		width:100%;
+	}
+}

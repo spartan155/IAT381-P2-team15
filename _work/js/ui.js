@@ -21,6 +21,19 @@ $(document).ready( function() {
 	$("#reviews").hide();
 	$("#addReview").hide();
 	
+	$("#noJS").hide();
+	$("#added").hide();
+	
+	$("#yesJS").show();
+	
+	$("#toCheckout").hide();
+	
+	$("#yesJS").click(function(){
+		$("#yesJS").hide();
+		$("#added").show();
+		$("#toCheckout").show();
+	});
+	
 	$("#toggleSpecs").click(function(){
 		$("#vesselSpecs").slideToggle();
 	});

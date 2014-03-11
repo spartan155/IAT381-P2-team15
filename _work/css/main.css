@@ -8,7 +8,6 @@ html,body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 	min-height:100%;
 	position:absolute;
 }
@@ -415,9 +414,42 @@ footer a, footer p, footer li{
 	width:8em;
 }
 
+.green_button{
+	border: 1px solid #868686;
+	box-shadow:inset 0px 0px 7px #1D1D1D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1D863F), to(#004D12));
+	background: -webkit-linear-gradient(top, #1D863F, #004D12);
+	background: -moz-linear-gradient(top, #1D863F, #004D12);
+	background: -ms-linear-gradient(top, #1D863F, #004D12);
+	background: -o-linear-gradient(top, #1D863F, #004D12);
+	background-color:#1D863F;
+	padding: .2em .5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow:inset 0px 0px 0px #1D1D1D;
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	color: white;
+	font-size: 1.2em;
+	font-family: roboto;
+	font-weight:900;
+	text-decoration: none;
+	text-align:center;
+	width:6em;
+	cursor:pointer;
+	transition: box-shadow .3s ease;
+	display:block;
+	width:8em;
+}
+
 .yellow_button:hover{
 	box-shadow:inset 0px 0px 7px #1D1D1D;
 }
+
+.green_button:hover{
+	box-shadow:inset 0px 0px 7px #1D1D1D;
+}
+
 .add_to_cart:hover{
 	box-shadow:inset 0px 0px 7px #1D1D1D;
 }
@@ -538,6 +570,11 @@ footer a, footer p, footer li{
 
 .product_features p{
 	clear:both;
+}
+
+.add_padding{
+	padding-left:1em;
+	padding-right:1em;
 }
 
 /* OLD FONT STUFF
