@@ -10,7 +10,8 @@
 		<link href="css/grid.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<script src="js/jquery-1.10.2.min.js"></script>
-		<script src="js/ui.js"></script>
+		<script src="js/vessel-filter.js"></script>
+		<link href="css/vessel.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 		<title>Sienar Vessels</title>
@@ -52,8 +53,55 @@
 		<div class="container_content">
 			<div class="content">
 				<h2>VESSELS</h2>
+				<div class="vessel_info_button" id="toggleFilter"> <!-- adding a button to toggle the filter -->
+						<h3>ADVANCED FILTERS</h3>
+				</div>
+				<div id="vessel_filter"> <!-- the container for the filter itself -->
+					<div class="col-1of1"> <!-- first column, used to filter by vessel class -->
+						<h4 class="no_margin">FILTER BY CLASS:</h4>
+						<form action=""> <!-- the form for this half of the filter -->
+							<div class="filter_option_container">
+								<input type="checkbox" id="fighterToggle" name="vesselClass" value="fighter" checked>
+								<div id="Fighter" class="filterOption">
+									Fighter
+								</div>
+							</div>
+							<div class="filter_option_container">
+								<input type="checkbox" id="shuttleToggle" name="vesselClass" value="shuttle" checked>
+								<div id="Shuttle" class="filterOption">
+									Shuttle
+								</div>
+							</div>
+							<div class="filter_option_container">
+								<input type="checkbox" id="capitalShipToggle" name="vesselClass" value="capitalShip" checked>
+								<div id="capitalShip" class="filterOption">
+									Capital Ship
+								</div>
+							</div>
+							<div class="filter_option_container">
+								<input type="checkbox" id="cruiserToggle" name="vesselClass" value="cruiser" checked>
+								<div id="cruiser" class="filterOption">
+									Cruiser/Corvette
+								</div>
+							</div>
+							<div class="filter_option_container">
+								<input type="checkbox" id="battlestationToggle" name="vesselClass" value="battlestation" checked>
+								<div id="battlestation" class="filterOption">
+									Battlestation
+								</div>
+							</div>
+							<div class="filter_option_container">
+								<input type="checkbox" id="walkerToggle" name="vesselClass" value="walker" checked>
+								<div id="walker" class="filterOption">
+									Walker
+								</div>
+							</div>
+						</form>
+						
+					</div>
+				</div>
 				<div class="grid">
-					<div class="col-1of3">
+					<div class="col-1of3 fighter">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="product_tie_interceptor.html"><img src="images/ship_products/tie_interceptor/tie_int_p.png" alt="TIE Interceptor"></a>
@@ -73,14 +121,14 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3" id="#">
+					<div class="col-1of3 walker">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/atst/atst_p.png" alt="ATST"></a>
 							</div>
 							<div class="product_name">
 
-								<h2><a href="#">AT-ST</a></h2>
+								<h2><a id="clickme" href="#">AT-ST</a></h2>
 							</div>
 							<div class="product_price">
 								<h3><img src="images/credits.png" alt="credits">87,000</h3>
@@ -94,7 +142,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 cruiser">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/corvette/corvette_p.png" alt="CR90 Corvette"></a>
@@ -115,7 +163,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 battlestation">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/golan/golan_p.png" alt="Goldan II Battlestation"></a>
@@ -136,7 +184,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 cruiser">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/hammerhead/ham_p2.png" alt="Hammerhead Cruiser"></a>
@@ -157,7 +205,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 capitalShip">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/imperial_star_destroyer/isd_p.png" alt="Imperial Star Destroyer"></a>
@@ -179,7 +227,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 cruiser">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/jedi_cruiser/jed_p.png" alt="Jedi Cruiser"></a>
@@ -200,7 +248,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 shuttle">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/lambda/lambda_p.png" alt="Lambda"></a>
@@ -221,7 +269,7 @@
 						</div>
 					</div>
 					
-					<div class="col-1of3">
+					<div class="col-1of3 capitalShip">
 						<div class="product_listing">
 							<div class="product_img">
 								<a href="#"><img src="images/ship_products/marathon/marathon_p.png" alt="Marathon"></a>

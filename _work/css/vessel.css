@@ -131,6 +131,32 @@
 	float:right;
 	text-align:center;
 }
+
+.filter_button{
+	border: 1px solid #868686;
+	background: #a67012;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dbb90f), to(#a67012));
+	background: -webkit-linear-gradient(top, #dbb90f, #a67012);
+	background: -moz-linear-gradient(top, #dbb90f, #a67012);
+	background: -ms-linear-gradient(top, #dbb90f, #a67012);
+	background: -o-linear-gradient(top, #dbb90f, #a67012);
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	padding:.5em;
+	transition:background-color .2s ease;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	transition:box-shadow 0.5s ease, background 0.5s ease;
+	cursor:pointer;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	width:10em;	
+	position:relative;
+	display:block;
+	float:right;
+	text-align:center;
+}
+
 .submit_review_button:hover{
 	box-shadow:inset 0px 0px 7px #1D1D1D;
 }
@@ -141,6 +167,10 @@
 
 .add_review_button:hover{
 	box-shadow:inset 0px 0px 10px #CACACA;
+}
+
+.filter_button:hover{
+	box-shadow:inset 0px 0px 7px #CACACA;
 }
 
 .vessel_info_button h3{
@@ -154,6 +184,11 @@
 }
 
 .submit_review_button h3{
+	margin:0;
+	color:white;
+}
+
+.filter_button h3{
 	margin:0;
 	color:white;
 }
@@ -309,6 +344,40 @@ textarea{
 .user_rating{
 	margin-top:1em;
 }
+
+#vessel_filter{
+	width:100%;
+	display:block;
+	background-color:rgba(175, 175, 175, 0.5);
+	height:12em;
+	padding:2em;
+}
+
+#vessel_filter > .col-1of2 > form{
+	display:block;
+}
+
+input[type="checkbox"]{
+	width:1.5em;
+	height:1.5em;
+	display:inline;
+	vertical-align: middle;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-right:.5em;
+}
+
+.filter_option_container{
+	width:49%;
+	display:inline-block;
+	position:relative;
+}
+
+.filterOption{
+	display:inline;
+	vertical-align:middle;
+}
+
 @media (max-width:960px) {
 	.vessel_image_sub img{
 		width:15%;
@@ -346,5 +415,16 @@ textarea{
 	}
 	tr{
 		padding:.5em;
+	}
+	.filter_option_container{
+		width:100%;
+	}
+	#vessel_filter{
+		padding:1em;
+		height:15em;
+	}
+	input[type="checkbox"]{
+		margin-bottom:.25em;
+		margin-top:.25em;
 	}
 }

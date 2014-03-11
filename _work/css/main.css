@@ -68,7 +68,9 @@ a:visited{
 footer a:visited{
 	color:white;
 }
-
+.no_margin{
+	margin:0;
+}
 /* Container: for all the page content to fit within */
 .container_all{
 	min-height:100%;
@@ -99,6 +101,7 @@ footer a:visited{
 	padding:.5em;
 	padding-left:1em;
 	padding-top:0px;
+	padding-bottom:2em;
 	color:white;
 }
 
@@ -212,6 +215,7 @@ footer input{
 	margin-bottom:20px;
 	width:90%;
 }
+
 footer a, footer p, footer li{
 	font-family: 'Lato', sans-serif;
 	margin-bottom:6px;
