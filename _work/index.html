@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/splash.css" rel="stylesheet"> <!-- css for this specific page -->
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -36,7 +37,7 @@
 							<a href="vessels.html" class='nav_link'>Vessels</a>
 						</div>
 						<div class="col-1of5">
-							<a href="contact_us.html" class='nav_link'>Cart</a>
+							<a href="cart.html" class='nav_link'>Cart</a>
 						</div>
 						<div class="col-1of5">
 							<a href="contact_us.html" class='nav_link'>Contact</a>
@@ -46,14 +47,53 @@
 			</header> <!-- end of header container -->	
 		</div>
 		
-		
 		<div class="container_content">
 			<div class="content">
 				<h2>HOME</h2>
 				<div class="grid">
-					<div class="col-1of1">				
-						<img src="images/slides/test_slide_1.png">
+					<div class="col-1of1">	
+						<div id="main_cta"> <!-- the div for the main call to action -->
+							<div id="main_bg"><!-- background stars for the main_cta -->
+								<div class="col-1of2"><!--this column is for the star destroyer image -->
+									<div id="main_img">
+										<img src="images/ship_products/imperial_star_destroyer/banner_destroyer_cropped.png" alt="Star Destroyers">
+									</div>
+								</div>
+								<div class="col-1of2">
+									<div id="main_text">
+										<p>Have an empire to rule?</p>
+										<h3 id="line_1">IMPERIAL CLASS II</h3>
+										<h3 id="line_2">STAR DESTROYER</h3>
+										<p>An unrivaled war machine and integral part of any fleet</p>
+										<div class="red_button">
+											Visit Store Page
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+					<div class="col-1of3 sub_cta"><!--one of the smaller call to actions -->
+						<a href=#><img src="images/ship_products/corvette/corvette_p.png" alt="Corvette"></a>
+						<h4 class="no_margin align_center"><a href=#>LATEST ARRIVAL</a></h4>
+						<p>The all new CR90 Corvette is loaded with a deadly arsenal; capable of taking on ships many times its size.</p>
+						<a href=#>CR90 Corvette ></a> 
+					</div>
+					
+					<div class="col-1of3 sub_cta"><!--one of the smaller call to actions -->
+						<a href="vessels.html"><img src="images/ship_products/tie_interceptor/tie_int_p.png" alt="TIE Interceptor"></a>
+						<h4 class="no_margin align_center"><a href="vessels.html">HUGE SELECTION!</a></h4>
+						<p>Whether you are constructing a fleet from scratch, or just filling in the holes, Sienar is here to help.</p>
+						<a href="vessels.html">View vessels ></a> 
+					</div>
+					
+					<div class="col-1of3 sub_cta"><!--one of the smaller call to actions -->
+						<a href="about_us.html"><img src="images/ship_products/golan/golan_p.png" alt="Golan battlestation"></a>
+						<h4 class="no_margin align_center"><a href="about_us.html">SIENAR HISTORY</a></h4>
+						<p>Here at Sienar, we have a history going back over 15 millennia. Learn how we became a the best military vessel supplier.</p>
+						<a href="about_us.html">About Sienar ></a> 
+					</div>
+				
 				</div> <!-- end of grid -->
 			</div> <!-- end of content -->
 		</div> <!-- end of content container -->	
@@ -61,19 +101,17 @@
 			<footer class="container_footer">
 				<div class="grid">
 					<div class="col-1of3">
-						<div class="widget_1">
 								<h3>Quick Links:</h3>
 								<ul>
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about_us.html">About</a></li>
 									<li><a href="vessels.html">Vessels</a></li>
+									<li><a href="cart.html">Cart</a></li>
 									<li><a href="contact_us.html">Contact Us</a></li>
 								</ul>
-						</div><!-- end of widget1 -->
 					</div><!-- end of column -->
 					
 					<div class="col-1of3">
-						<div class="widget_2">
 							<h3>Our Allies:</h3>
 						<ul>
 							<li><a href="http://starwars.wikia.com/wiki/Kuat_Drive_Yards">Kuat Drive Yards</a></li>
@@ -81,18 +119,14 @@
 							<li><a href="http://starwars.wikia.com/wiki/Merr-Sonn_Munitions,_Inc.">Merr-Sonn Munitions, Inc.</a></li>
 							<li><a href="http://starwars.wikia.com/wiki/Tagge_Company">Tagge Company</a></li>
 						</ul>
-						</div><!-- end of widget2 -->
 					</div><!-- end of column -->
 					
 					<div class="col-1of3">
-						<div class="widget_3">
 							<h3>Join our Newsletter:</h3>
 							<p>Email Address:</p>
 							<input type="text" id="email-input" name="email-input" placeholder="Type email here">
 							<a href="#" class="subscribe_btn">Subscribe</a>
-						</div><!-- end of widget3 -->
 					</div><!-- end of column -->
-					
 				</div><!-- end of grid -->
 			</footer> <!-- end of footer container -->
 		</div>

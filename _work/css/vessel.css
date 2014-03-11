@@ -134,12 +134,12 @@
 
 .filter_button{
 	border: 1px solid #868686;
-	background: #a67012;
-	background: -webkit-gradient(linear, left top, left bottom, from(#dbb90f), to(#a67012));
-	background: -webkit-linear-gradient(top, #dbb90f, #a67012);
-	background: -moz-linear-gradient(top, #dbb90f, #a67012);
-	background: -ms-linear-gradient(top, #dbb90f, #a67012);
-	background: -o-linear-gradient(top, #dbb90f, #a67012);
+	background: -webkit-gradient(linear, left top, left bottom, from(#861D24), to(#4D0005));
+	background: -webkit-linear-gradient(top, #861D24, #4D0005);
+	background: -moz-linear-gradient(top, #861D24, #4D0005);
+	background: -ms-linear-gradient(top, #861D24, #4D0005);
+	background: -o-linear-gradient(top, #861D24, #4D0005);
+	background-color:#861D24;
 	text-shadow: rgba(0,0,0,1) 1px 1px 0;
 	padding:.5em;
 	transition:background-color .2s ease;
@@ -150,10 +150,11 @@
 	cursor:pointer;
 	margin-top:.5em;
 	margin-bottom:.5em;
-	width:10em;	
+	width:20em;	
 	position:relative;
 	display:block;
-	float:right;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:center;
 }
 

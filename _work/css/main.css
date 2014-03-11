@@ -25,6 +25,7 @@ header{
 	height: auto;
 	background-image:url(../images/stars.jpg);
 	border-bottom:solid 5px gray;
+	background-size:contain;
 }
 
 .footer_background{
@@ -57,6 +58,9 @@ p, ul, ol {
 	font-family: 'Lato', sans-serif;
 }
 
+a{
+	color:black;
+}
 a:focus{ 
 	outline: none !important; 
 }
@@ -68,8 +72,13 @@ a:visited{
 footer a:visited{
 	color:white;
 }
+
 .no_margin{
 	margin:0;
+}
+
+.align_center{
+	text-align:center;
 }
 /* Container: for all the page content to fit within */
 .container_all{

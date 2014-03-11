@@ -1,0 +1,131 @@
+#main_cta{
+	width:100%;
+	height:30em;
+	margin-bottom:2em;
+	padding:.5em;
+}
+
+#main_bg{
+	background-color:black;
+	background:url(../images/stars-large.jpg);
+	height:inherit;
+	background-size:contain;
+}
+
+#main_img{
+	margin-top:10em;
+	padding-left:2em;
+}
+
+#main_text{
+	text-align:center;
+	color:white;
+	padding-top:6em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+#line_1{
+	border-top:solid 5px #BE1622;
+}
+
+#line_2{
+	border-bottom:solid 5px #BE1622;
+}
+
+#main_text p{
+	margin-top:1em;
+	font-size:1.3em;
+	text-align:center;
+}
+
+#main_text h3{
+	color:white;
+	font-size:2em;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.sub_cta{
+	padding:1em;
+}
+
+.sub_cta img{
+	background-color:rgba(175, 175, 175, 0.5);
+	width:100%;
+	transition:background-color .5s ease;
+}
+.sub_cta img:hover{
+	background-color:rgba(125, 125, 125, 0.5);
+	width:100%;
+}
+
+
+.sub_cta h4{
+	font-size:1.5em;
+	font-family:roboto, sans-serif;
+}
+.red_button{
+	border: 1px solid #4B4B4B;
+	background: -webkit-gradient(linear, left top, left bottom, from(#861D24), to(#4D0005));
+	background: -webkit-linear-gradient(top, #861D24, #4D0005);
+	background: -moz-linear-gradient(top, #861D24, #4D0005);
+	background: -ms-linear-gradient(top, #861D24, #4D0005);
+	background: -o-linear-gradient(top, #861D24, #4D0005);
+	background-color:#861D24;
+	text-shadow: rgba(0,0,0,1) 1px 1px 0;
+	padding:.5em;
+	transition:background-color .2s ease;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	transition:box-shadow 0.5s ease, background 0.5s ease;
+	cursor:pointer;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	width:50%;	
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-weight:900;
+	color:white;
+	min-width:10em;
+}
+
+.red_button:hover{
+	box-shadow:inset 0px 2px 10px #1D1D1D;
+}
+
+
+
+@media (max-width:960px) {
+	#main_img{
+		margin-top:1em;
+	}
+	#main_text{
+		padding-top:0em;
+	}
+	.col-1of3{
+		width:33.333%;
+	}
+}
+
+@media (max-width:570px) {
+	#main_text h3{
+		font-size:1.5em;
+	}
+	#main_text p{
+		font-size:1em;
+	}
+	.red_button{
+		width:100%;
+	}
+	#main_cta{
+		height:23em;
+	}
+		.col-1of3{
+		width:100%;
+	}
+}
