@@ -22,6 +22,7 @@ $(document).ready( function() {
 	$("#addReview").hide();
 	
 	$("#noJS").hide();
+	$("#yesJS").hide();
 	$("#added").hide();
 	
 	$("#yesJS").show();
