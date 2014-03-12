@@ -560,6 +560,7 @@ footer input{
 .product_name a, .product_name a:visited{
 	color:#000000;
 	transition:color .2s ease;
+	line-height:1em;
 }
 
 .product_name a:hover{
