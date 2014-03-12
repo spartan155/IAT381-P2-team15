@@ -16,7 +16,7 @@
 		<link href="css/vessel.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-		<title>Executor Super Star Destroyer</title>
+		<title>Hammerhead Cruiser</title>
 		<!-- Close head tag -->
 	</head>
 	<body>
@@ -25,7 +25,7 @@
 				<div class="grid">
 					<div class="col-1of2">
 						<div class="logo">
-							<img src="images/sienar_full_logo_final_white.png" alt="Sienar Logo">
+							<a href="index.html"><img src="images/sienar_full_logo_final_white.png" alt="Sienar Logo"></a>
 						</div>
 					</div>
 				<!-- Setup/close navigation links -->
@@ -52,29 +52,29 @@
 		
 		<div class="container_content"> <!-- The content container class to hold the info between header & footer -->
 		<div class="content">
-		<h2><a href="vessels.html">VESSELS</a> > Executor Super Star Destroyer</h2> <!-- Title -->
+		<h2><a href="vessels.html">VESSELS</a> > Hammerhead Cruiser</h2> <!-- Title -->
 			<div class="grid"> <!-- Grid class to contain the 2 columns I need -->
 				<div class="col-1of2"> <!-- First column to contain the product Picture and Title -->
 					<div class="vessel_images">
 						<div class="vessel_image_main"> <!-- a container for the main image -->
-							<a href="images/ship_products/superstardestroyer/ssd_p.png" data-lightbox="product=gallery" title="Super Star Destroyer"><img src="images/ship_products/superstardestroyer/ssd_p.png" alt="Super Star Destroyer Main Image"><!-- Product pictureZ --></a>
+							<a href="images/ship_products/hammerhead/ham_p2.png" data-lightbox="product=gallery" title="Hammerhead Cruiser"><img src="images/ship_products/hammerhead/ham_p2.png" alt="Hammerhead Cruiser Main Image"><!-- Product pictureZ --></a>
 						</div><!--end of vessel main image -->
 						
 						<div class="vessel_image_sub">	<!-- a container for the sub image -->
 							
-							<a href="images/ship_products/superstardestroyer/ssd_t.png" data-lightbox="product=gallery" title="Dorsal view"><img src="images/ship_products/superstardestroyer/ssd_t.png" alt="Super Star Destroyer Top View"><!-- Product picture --></a>
+							<a href="images/ship_products/hammerhead/ham_top.png" data-lightbox="product=gallery" title="Dorsal view"><img src="images/ship_products/hammerhead/ham_top.png" alt="Hammerhead Cruiser Top View"><!-- Product picture --></a>
 						
-							<a href="images/ship_products/superstardestroyer/ssd_s.png" data-lightbox=	"product=gallery" title="Side view"><img src="images/ship_products/superstardestroyer/ssd_s.png" alt="Super Star Destroyer Side View"><!-- Product picture --></a>
+							<a href="images/ship_products/hammerhead/ham_side.png" data-lightbox=	"product=gallery" title="Side view"><img src="images/ship_products/hammerhead/ham_side.png" alt="Hammerhead Cruiser Side View"><!-- Product picture --></a>
 						
-							<a href="images/ship_products/superstardestroyer/backside.png" data-lightbox="product=gallery" title="Aft view"><img src="images/ship_products/superstardestroyer/backside.png" alt="Super Star Destroyer Bottom View"><!-- Product picture --></a>
+							<a href="images/ship_products/hammerhead/ham_front.png" data-lightbox="product=gallery" title="Bow view"><img src="images/ship_products/hammerhead/ham_front.png" alt="Hammerhead Cruiser Bottom View"><!-- Product picture --></a>
 						</div>
 					</div>
 					
 				</div> <!-- End of col-1of2 -->
 				<div class="col-1of2"> <!-- Second column to contain the product Picture and Title -->
 					<div class="item_description"> <!-- Class to controll the item description. This class controls commands to make the image correspont to the em size of the h2 font -->
-						<h1>Super Star Destroyer</h1>
-						<h2><img src="images/credits.png" alt="Credits symbol">2,476,390,000</h2> <!-- Had a height="20px" doing nothing in here-->
+						<h1>Hammerhead Cruiser</h1>
+						<h2><img src="images/credits.png" alt="Credits symbol">670,000</h2> <!-- Had a height="20px" doing nothing in here-->
 						<div class="vessel_rating">
 						<strong>RATING:</strong>	
 							<ul class="rating">
@@ -100,12 +100,24 @@
 						</div>	
 						
 
-						<div class="add_to_cart"><strong>Add to cart</strong></div>
+						<a href="cart.html" id="noJS"> <!-- this button will show if javascript is disabled -->
+							<div class="yellow_button"><strong>Add to cart</strong></div>
+						</a>
+						
+						<a id="yesJS"> <!-- this button will only show if javascript is enabled -->
+							<div class="yellow_button"><strong>Add to cart</strong></div>
+						</a>
+						
+						<div class="green_button" id="added"><strong>Added!</strong></div>
+						
+						<a href="cart.html" id="toCheckout">
+							<div class="checkout_button"><strong>To Checkout</strong></div>
+						</a>
 						
 						<h3>VESSEL OVERVIEW</h3>
 						
 						<div class="vessel_overview" id="content">
-							<p>The Executor is a super star destroyer dreadnaught commissioned by the Emperor himself to operate as logistical command ships over entire sectors. Due to the size star-dreadnaughts are usually only commanded by the upper echelons of the Imperial navy and without the massive shipbuilding potential of dockyards such as Kuat and Fondor would likely be impossible to build. They can also operate as main battle-ships as their shields and armour can withstand all but the most intense firepower. Executor has 250 Heavy Ion cannons and over 4000 turbo laser batteries to ensure tactical superiority on all battlefields and is capable of fielding over 3000 TIE starfighters for additional fire support. </p>
+							<p>The Hammerhead cruiser has been in operation since the Mandalorian wars and while the design has evolved over time it is still one of the best support ships available on the market today. Fast and bulky the Hammerhead can often outpace and overpower its adversaries despite its tonnage.</p>
 						</div>
 					
 
@@ -119,31 +131,31 @@
 						<table>
 							<tr>
 								<th>Armaments:</th>
-								<td><strong>4000:</strong> Heavy Turbolaser Batteries; <strong>250:</strong> Concussion Missile Launchers; <strong>250:</strong> Heavy Ion Cannons; <strong>40:</strong> Phylon-Transport Q7 Tractor Beam Projectors; <strong>500:</strong> Point Defence Laser Turrets; <strong>144-3000:</strong> TIE-series Starfighters; <strong>30:</strong> AT-ST Walkers; <strong>40:</strong> AT-ST Walkers</td>
+								<td><strong>4:</strong> Dual heavy Turbolaser cannons; <strong>2:</strong> Turbolaser cannons; <strong>2:</strong> Quad laser cannons; <strong>2:</strong> Point-defense laser cannon batteries; <strong>1:</strong> Tractor beam generator; <strong>12:</strong>  Aurek-class tactical strikefighters; <strong>2:</strong>  Ministry-class orbital shuttles</td>
 							</tr>
 							<tr>
 								<th>Power-Plant:</th>
-								<td>Solar Ion Reactor= <strong> 7,73 × 10^26W</strong></td>
+								<td>Sung'ti Ion Reactor=<strong>15 × 10^15 W</strong></td>
 							</tr>
 							<tr>
 								<th>Engines:</th>
-								<td><strong>13:</strong> Executor-50.x engines</td>
+								<td><strong>4:</strong> Cylinder Ion Engines</td>
 							</tr>
 							<tr>
 								<th>Hyperdrive Rating:</th>
-								<td><strong>Primary:</strong>Class 2 - <strong>Backup:</strong>Class 10</td>
+								<td><strong>Primary:</strong> Class 2 </td>
 							</tr>
 							<tr>
 								<th>Length:</th>
-								<td>19,000 meters</td>
+								<td>315 meters</td>
 							</tr>
 							<tr>
 								<th>Crew Compliment:</th>
-								<td><strong>Full:</strong>279,144; <strong> Minimum:</strong> 50,000; <strong> Passengers:</strong> 38,000</td>
+								<td>300</td>
 							</tr>
 							<tr>
 								<th>Cargo Capacity:</th>
-								<td>250,000 metric tons; supplies for 300,000</td>
+								<td>4,000 tons</td>
 							</tr>
 						</table>
 					</div> <!-- end of vessel specs-->
@@ -157,19 +169,19 @@
 						<div class="review"> <!-- the starting container for one review -->
 							<div class="review_profile"> <!-- this includes the reviewer's name, and their rating -->
 								<div class="review_name">
-									<strong>Reviewer's Name:</strong> Darth Vader
+									<strong>Reviewer's Name:</strong> Bastilla Shaw
 								</div>
 								<strong>RATING:</strong>	
 								<ul class="rating">
 									<li><a class="star"></a></li>
 									<li><a class="star"></a></li>
 									<li><a class="star"></a></li>
-									<li><a class="star"></a></li>
+									<li><a class="blank"></a></li>
 									<li><a class="blank"></a></li>
 								</ul>
 							</div>
 							<div class="review_full"> <!-- this includes the text content for their review -->
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum id leo non congue. Mauris condimentum nulla nec nulla dignissim mollis. Aenean vel ipsum ac arcu interdum congue. Suspendisse porta velit eu ipsum posuere porta. Sed dictum laoreet augue. Duis at imperdiet felis. Aliquam erat volutpat. Cras quis neque lorem.</p>
+								<p>Lorem ipsum dolor sit amest, consectetur adipiscing elit. Nam vestibulum id leo non congue. Mauris condimentum nulla nec nulla dignissim mollis. Aenean vel ipsum ac arcu interdum congue. Suspendisse porta velit eu ipsum posuere porta. Sed dictum laoreet augue. Duis at imperdiet felis. Aliquam erat volutpat. Cras quis neque lorem.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum id leo non congue. Mauris condimentum nulla nec nulla dignissim mollis. Aenean vel ipsum ac arcu interdum congue. Suspendisse porta velit eu ipsum posuere porta. Sed dictum laoreet augue. Duis at imperdiet felis. Aliquam erat volutpat. Cras quis neque lorem.</p>
 							</div> <!-- end of review_full -->
 						</div><!-- end of single review -->
@@ -177,7 +189,7 @@
 						<div class="review"> <!-- the starting container for one review -->
 							<div class="review_profile"> <!-- this includes the reviewer's name, and their rating -->
 								<div class="review_name">
-									<strong>Reviewer's Name:</strong> Ra'tha Setiin
+									<strong>Reviewer's Name:</strong> Carth Onasi
 								</div>
 								<strong>RATING:</strong>	
 								<ul class="rating">
@@ -204,11 +216,11 @@
 						<div class="user_rating">
 							<strong>RATING:</strong>
 							<ul class="set_rating">
-								<li><a href="#" title="1 Star">1</a></li>
-								<li><a href="#" title="2 Stars">2</a></li>
-								<li><a href="#" title="3 Stars">3</a></li>
-								<li><a href="#" title="4 Stars">4</a></li>
-								<li><a href="#" title="5 Stars">5</a></li>
+								<li><a href="#a" title="1 Star">1</a></li>
+								<li><a href="#a" title="2 Stars">2</a></li>
+								<li><a href="#a" title="3 Stars">3</a></li>
+								<li><a href="#a" title="4 Stars">4</a></li>
+								<li><a href="#a" title="5 Stars">5</a></li>
 							</ul>
 						</div>
 						<div class="user_comments">
@@ -217,8 +229,11 @@
 								<textarea id="form-comments" name="form-comments" placeholder="Enter your comments here..."></textarea>	
 							</form>
 						</div>
-						<div class="submit_review_button" id="submitReview">
+						<div class="submit_review_button" id="submitComment">
 							<h3>SUBMIT</h3>
+						</div>
+						<div class="submit_review_button" id="submitted">
+							<h3>SUBMITED!</h3>
 						</div>
 					</div>
 					</div><!-- end of all reviews -->
@@ -231,17 +246,18 @@
 			<footer class="container_footer">
 				<div class="grid">
 					<div class="col-1of3">
-								<h3>Quick Links:</h3>
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about_us.html">About</a></li>
-									<li><a href="vessels.html">Vessels</a></li>
-									<li><a href="contact_us.html">Contact Us</a></li>
-								</ul>
+						<h3>Quick Links:</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About</a></li>
+							<li><a href="vessels.html">Vessels</a></li>
+							<li><a href="cart.html">Cart</a></li>
+							<li><a href="contact_us.html">Contact Us</a></li>
+						</ul>
 					</div><!-- end of column -->
 					
 					<div class="col-1of3">
-							<h3>Our Allies:</h3>
+						<h3>Our Allies:</h3>
 						<ul>
 							<li><a href="http://starwars.wikia.com/wiki/Kuat_Drive_Yards">Kuat Drive Yards</a></li>
 							<li><a href="http://starwars.wikia.com/wiki/Galactic_Empire">Galactic Empire</a></li>
@@ -249,15 +265,13 @@
 							<li><a href="http://starwars.wikia.com/wiki/Tagge_Company">Tagge Company</a></li>
 						</ul>
 					</div><!-- end of column -->
-					<div class="col-1of3">
-						<div class="widget_3">
-							<h3>Join our Newsletter:</h3>
-							<p>Email Address:</p>
-							<input type="text" id="email-input" name="email-input" placeholder="Type email here">
-							<a href="#" class="subscribe_btn">Subscribe</a>
-						</div><!-- end of widget3 -->
-					</div><!-- end of column -->
 					
+					<div class="col-1of3">
+						<h3>Join our Newsletter:</h3>
+						<p>Email Address:</p>
+						<input type="text" id="email-input" name="email-input" placeholder="Type email here">
+						<a href="#a" class="subscribe_btn">Subscribe</a>
+					</div><!-- end of column -->
 				</div><!-- end of grid -->
 			</footer> <!-- end of footer container -->
 		</div><!-- end of footer background -->
