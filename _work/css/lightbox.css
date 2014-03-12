@@ -1,6 +1,6 @@
 /* line 7, ../sass/lightbox.sass */
 body:after {
-  content: url(images/close.png) url(images/loading.gif) url(images/prev.png) url(images/next.png);
+  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;
 }
 
@@ -44,7 +44,8 @@ body:after {
 /* line 35, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: relative;
-  background-color: black;
+  background:url(../images/stars-large.jpg);
+  background-size:contain;
   *zoom: 1;
   width: 250px;
   height: 250px;

@@ -99,7 +99,17 @@
 	#main_cta{
 		height:23em;
 	}
-		.col-1of3{
+	.col-1of3{
 		width:100%;
+	}
+	.yellow_button{
+		width:100%;
+		min-width:0;
+	}
+}
+
+@media (max-width:350px) {
+	#main_cta{
+		height:29em;
 	}
 }

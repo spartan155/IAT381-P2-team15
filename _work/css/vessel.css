@@ -267,6 +267,7 @@ tr:nth-child(odd) {
 	list-style:none;
 }
 
+
 ul.rating{
 	background:url(../images/imperial.png) bottom;
 	height:42px;
@@ -333,6 +334,12 @@ ul.set_rating li{
 .set_rating a:active {
 	background-position:top;
 }
+
+
+
+
+
+
 
 .vessel_reviews{
 	padding:1em;
@@ -480,12 +487,82 @@ input[type="checkbox"]{
 	.filter_option_container{
 		width:100%;
 	}
+	.filter_button{
+		width:100%;
+	}
 	#vessel_filter{
 		padding:1em;
-		height:15em;
+		height:16em;
 	}
 	input[type="checkbox"]{
 		margin-bottom:.25em;
 		margin-top:.25em;
+	}
+	
+	ul.rating{
+	background:url(../images/imperial2.png) bottom;
+	height:21px;
+	width:115px;
+	overflow:hidden;
+	}
+
+	ul.rating li{
+		display:inline
+	}
+
+	.rating a {
+		display:block;
+		width:23px;
+		height:21px;
+		float:left;
+		text-indent:-9999px;
+		position:relative;
+	}
+
+	.rating .star {
+		background:url(../images/imperial2.png) center;
+		height:21px;
+		width:115px;
+		margin-left:-92px;
+		position:static;
+	}
+
+	.rating .blank {
+		background:url(../images/imperial2.png) bottom;
+		height:21px;
+		width:115px;
+		overflow:hidden;
+	}
+
+	ul.set_rating{
+		background:url(../images/imperial2.png) bottom;
+		height:21px;
+		width:115px;
+		overflow:hidden;
+	}
+
+	ul.set_rating li{
+		display:inline
+	}
+
+	.set_rating a {
+		display:block;
+		width:23px;
+		height:21px;
+		float:left;
+		text-indent:-9999px;
+		position:relative;
+	}
+
+	.set_rating a:hover {
+		background:url(../images/imperial2.png) center;
+		height:21px;
+		width:115px;
+		margin-left:-92px;
+		position:static;
+	}
+	 
+	.set_rating a:active {
+		background-position:top;
 	}
 }
