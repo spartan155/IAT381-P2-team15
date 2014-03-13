@@ -9,7 +9,7 @@
 var navShow = false;
 
 function hideDiv(){
-    if ($(window).width() > 555) {
+    if ($(window).width() > 555) { //width is slightly off for some reason, causes some problems across browsers
 		$("#menuBtn").hide();
 		$("#navBar").show();
 		$('#navBar').css('display', 'inline');

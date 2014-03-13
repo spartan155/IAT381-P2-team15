@@ -1,7 +1,6 @@
 $(document).ready( function() {
 	/* 
-		Here is some good jQuery code for debugging, takes
-		whatever info you want and injects it into the title
+		This file builds on what we learned during the lecture/labs
 	*/
 	// var variable = "Debugging test";
 	// $("title").html("Info: "+variable);
@@ -17,6 +16,7 @@ $(document).ready( function() {
 		$("section#main").load(file+" #content");
 	});
 	*/
+
 	$("#vesselSpecs").hide();
 	$("#reviews").hide();
 	$("#addReview").hide();

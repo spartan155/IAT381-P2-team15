@@ -6,7 +6,8 @@
 		<!-- Meta tag chooses which character set to render page with -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/menu.js"></script>
 		<script src="js/lightbox-2.6.min.js"></script>
 		<script src="js/ui.js"></script>
 		<link href="css/lightbox.css" rel="stylesheet" />
@@ -29,7 +30,12 @@
 						</div>
 					</div>
 				<!-- Setup/close navigation links -->
-					<nav>
+					<div class="col-1of5" id="menuBtn"> <!--menu button to show/hide nav menu on smaller widths -->
+							<a href='#a' class='nav_link_home'>MENU</a>
+					</div>
+					
+					<nav id="navBar"> <!-- FOR SOME REASON DOES NOT WORK IN SAFARI, POSITION IS MESSED UP, CANNOT FIND A GOOD FIX OR USE VENDOR PREFIX WITHOUT BREAKING IT IN CHROME -->
+						
 						<div class="col-1of5">
 							<a href='index.html' class='nav_link_home'>Home</a>
 						</div>
@@ -133,7 +139,7 @@
 							</tr>
 							<tr>
 								<th>Power-Plant:</th>
-								<td>Mason-Branger 7085 ionization reactor and regulator=<strong>26 × 10^15 W</td>
+								<td>Mason-Branger 7085 ionization reactor and regulator=<strong>26 × 10^15 W</strong></td>
 							</tr>
 							<tr>
 								<th>Engines:</th>

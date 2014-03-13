@@ -6,10 +6,11 @@
 		<!-- Meta tag chooses which character set to render page with -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/menu.js"></script>
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
-		<link href="css/normalize.css" rel="stylesheet">
-		<script src="js/jquery-1.10.2.min.js"></script>
+		<link href="css/normalize.css" rel="stylesheet">		
 		<script src="js/vessel-filter.js"></script>
 		<link href="css/vessel.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -28,7 +29,12 @@
 						</div>
 					</div>
 				<!-- Setup/close navigation links -->
-					<nav>
+					<div class="col-1of5" id="menuBtn"> <!--menu button to show/hide nav menu on smaller widths -->
+							<a href='#a' class='nav_link_home'>MENU</a>
+					</div>
+					
+					<nav id="navBar"> <!-- FOR SOME REASON DOES NOT WORK IN SAFARI, POSITION IS MESSED UP, CANNOT FIND A GOOD FIX OR USE VENDOR PREFIX WITHOUT BREAKING IT IN CHROME -->
+						
 						<div class="col-1of5">
 							<a href='index.html' class='nav_link_home'>Home</a>
 						</div>
