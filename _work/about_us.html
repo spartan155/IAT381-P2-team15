@@ -8,12 +8,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
+		<link href="css/splash.css" rel="stylesheet"> <!-- css for this specific page -->
 		<link href="css/normalize.css" rel="stylesheet">
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/menu.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-		<title>About</title>
+		<title>About Us</title>
 	<!-- Close head tag -->
 	</head>
+	
 	<body>
 		<div class="header_background">
 			<header class="container_header">
@@ -24,7 +28,12 @@
 						</div>
 					</div>
 				<!-- Setup/close navigation links -->
-					<nav>
+					<div class="col-1of5" id="menuBtn">
+							<a href='#a' class='nav_link_home'>MENU</a>
+					</div>
+					
+					<nav id="navBar">
+						
 						<div class="col-1of5">
 							<a href='index.html' class='nav_link_home'>Home</a>
 						</div>

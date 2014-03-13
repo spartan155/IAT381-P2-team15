@@ -98,6 +98,10 @@
 	}
 	#main_cta{
 		height:23em;
+		padding:0;
+	}
+	.sub_cta{
+	
 	}
 	.col-1of3{
 		width:100%;
@@ -105,11 +109,15 @@
 	.yellow_button{
 		width:100%;
 		min-width:0;
+		font-size:1em;
 	}
 }
 
-@media (max-width:350px) {
+@media (max-width:460px) {
 	#main_cta{
-		height:29em;
+		height:22em;
+	}
+	#main_bg{
+		height:22em;
 	}
 }

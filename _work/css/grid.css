@@ -67,6 +67,7 @@
 	}
 	header nav{
 		width:60%;
+		display:inline;
 	}
 	.product_name, .product_name h2{
 		position:relative;
@@ -131,11 +132,6 @@
 	}
 }
 
-@media (max-width:700px) {
-
-	
-}
-
 @media (max-width:570px) {
 	.container_content{
 		padding:0;
@@ -160,6 +156,7 @@
 		border-bottom:none;
 	}
 	.nav_link_home{
+		border-top:1px solid rgb(50,50,50);
 		background-color:#1a1a1a;
 		border-bottom:none;
 	}
